@@ -1,30 +1,30 @@
 ---
-description: Product description, Steam page
+description: Описание продукта, страница Steam
 cover: .gitbook/assets/Cover2-min.jpg
 coverY: 0
 layout: landing
 ---
 
-# 👋 Welcome to Xeus!
+# 👋 Добро пожаловать в Xeus!
 
-## ABOUT THIS GAME
+### ОБ ЭТОЙ ИГРЕ
 
-Welcome to Xeus, a multiplayer survival game that takes you to an exoplanet full of dangers and challenges. In this game, you'll face a constant battle for survival against natural conditions, animals, plants, and other players.
+Добро пожаловать в Xeus, многопользовательскую игру на выживание, которая перенесет вас на экзопланету, полную опасностей и испытаний. В этой игре вам предстоит постоянная борьба за выживание с природными условиями, животными, растениями и другими игроками.
 
-But Xeus is more than just a survival game. It has unique mechanics such as state of mind, alchemy, and electricity that add depth and complexity to the gameplay. Use your state of mind to understand the world and discover hidden abilities. Master alchemy to turn raw materials into powerful potions and explosives. Use the power of electricity to illuminate your base, power machines and defend against attacks.
+Но Xeus - это больше, чем просто игра на выживание. В ней есть уникальные механики, такие как состояние разума, алхимия и электричество, которые добавляют глубину и сложность игровому процессу. Используйте свое состояние разума, чтобы понять мир и открыть скрытые способности. Освойте алхимию, чтобы превратить сырье в мощные зелья и взрывчатку. Используйте силу электричества, чтобы освещать свою базу, приводить в действие машины и защищаться от нападений.
 
-Whether you prefer PvP or PvE, Xeus has something for you. You can level up your character depending on the situation, adapting to the challenges ahead. With an emphasis on realism, every move you make could be your last, and every decision you make will have consequences.
+Независимо от того, предпочитаете ли вы PvP или PvE, в Xeus найдется что-то для вас. Вы можете повышать уровень своего персонажа в зависимости от ситуации, адаптируясь к предстоящим испытаниям. С упором на реализм, каждый ваш шаг может стать последним, а каждое принятое решение будет иметь последствия.
 
-To survive, you will have to be resourceful and cunning. Build houses to protect yourself and conserve your resources, or raid other players' houses to steal what you need. But beware: other players are just as desperate as you are, and they won't hesitate to attack if they see an opportunity.
+Чтобы выжить, вам придется проявить изобретательность и хитрость. Стройте дома, чтобы защитить себя и сохранить свои ресурсы, или совершайте набеги на дома других игроков, чтобы украсть то, что вам нужно. Но будьте осторожны: другие игроки в таком же отчаянии, как и вы, и они без колебаний нападут, если увидят возможность.
 
-Are you ready to take on the Xeus challenge? Join the community and begin your journey around the exoplanet today!
+Готовы ли вы принять вызов Xeus? Присоединяйтесь к сообществу и начните свое путешествие по экзопланете уже сегодня!
 
-## SYSTEM REQUIREMENTS
+### СИСТЕМНЫЕ ТРЕБОВАНИЯ
 
-| Characteristics | Min              | Recommended       |
-| --------------- | ---------------- | ----------------- |
-| OS              | Windows 10       | Windows 11        |
-| Processor       | AMD Ryzen 5 1600 | AMD Ryzen 5 5600x |
-| RAM             | 8GB              | 16GB              |
-| GPU             | GeForce GTX 1060 | GeForce RTX 2060  |
-| Disk Space      | 10GB HDD         | 32GB SSD          |
+| Характеристика     | Минимальные      | Рекомендуемые     |
+| ------------------ | ---------------- | ----------------- |
+| ОС                 | Windows 10       | Windows 11        |
+| Процессор          | AMD Ryzen 5 1600 | AMD Ryzen 5 5600x |
+| Оперативная память | 8GB              | 16GB              |
+| Видеокарта         | GeForce GTX 1060 | GeForce RTX 2060  |
+| Место на диске     | 10GB HDD         | 32GB SSD          |

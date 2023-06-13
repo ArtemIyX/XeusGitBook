@@ -1,26 +1,30 @@
+---
+description: Система развития
+---
+
 # Tech evolution
 
-## General information
+## Общие сведения
 
-In the game, each action performed by the player brings him experience. By collecting a certain amount of experience, the player increases his level. As the level increases, the amount of experience needed to reach the next level also increases.&#x20;
+В игре, каждое действие, выполненное игроком, приносит ему опыт. Собирая определенное количество опыта, игрок повышает свой уровень. С ростом уровня необходимое количество опыта для достижения следующего уровня также возрастает. При достижении нового уровня игрок получает очко прокачки, которое может использовать для приобретения новых умений или улучшения уже имеющихся.
 
-When the player reaches a new level, he receives a leveling point, which he can use to acquire new skills or improve existing one
+## Дерево прокачки
 
-## Character progression tree
+Существует возможность выбора одной из трех веток развития, доступной игроку после достижения определенного уровня и освоения [<mark style="color:purple;">базовых</mark>](add-vetka.md) навыков выживания.&#x20;
 
-The first branch, [<mark style="color:red;">PvP</mark>](pvp-vetka.md), is aimed at developing skills in killing, raiding and weapon creation. In this branch characters usually do not specialize in hunting, resource extraction or construction. Their main task is killing, looting and pillaging.
+Первая ветка - [<mark style="color:red;">PvP</mark>](pvp-vetka.md), направлена на развитие навыков убийства, осуществления рейдов и создания оружия. В этой ветке персонажи обычно не специализируются на охоте, добыче ресурсов или строительстве. Их главная задача состоит в убийстве, грабежах и мародерстве.
 
-The second branch, [<mark style="color:green;">PvE</mark>](pve-branch.md), focuses on building, exploration, resource extraction and hunting skills. Characters in this branch are usually not skilled assassins, but are excellent construction skills. Their bases can resemble castles, and they themselves are able to extract resources with high speed and efficiency.
+Вторая ветка - [<mark style="color:green;">PvE</mark>](pve-vetka.md), ориентирована на развитие навыков строительства, разведки, добычи ресурсов и охоты. Персонажи этой ветки обычно не являются опытными убийцами, но отличаются великолепными навыками строительства. Их базы могут напоминать замки, а они сами способны добывать ресурсы с высокой скоростью и эффективностью.
 
-The third branch, [<mark style="color:yellow;">Mid</mark>](mid-vetka.md), develops alchemy, stealth, hunting, magic and survival skills. Players in this branch do not have high level building or killing skills, but they are excellent scouts. They have an easier time hunting and surviving in harsh environments and harsh climates. They know how to avoid combat and can successfully fight off dangers with magic. They also have knowledge of alchemy and can create various healing potions.
+Третья ветка - [<mark style="color:yellow;">Mid</mark>](mid-vetka.md), развивает навыки алхимии, скрытности, охоты, магии и выживания. Игроки этой ветки не обладают навыками строительства или убийства на высоком уровне, но они отличные разведчики. Им легче охотиться и выживать в суровых условиях и суровом климате. Они умеют избегать схваток и могут успешно противостоять опасностям с помощью магии. Они также обладают знаниями алхимии и могут создавать различные лечебные снадобья.
 
-In addition to the three branches, there is an [<mark style="color:purple;">Additional branch</mark>](add-vetka.md). Often it does not require deep knowledge and is not too deep.
+Кроме трех веток, существует [<mark style="color:purple;">дополнительная</mark>](add-vetka.md) ветка. Зачастую она не требует глубоких познаний и не слишком глубокая.
 
-The player cannot develop all three branches at maximum level, as the number of available boost points is limited. This forces characters to make a choice and develop the branch that is most useful for their playstyle and needs.
+Игрок не может развить все три ветки развития на максимальном уровне, так как количество доступных очков прокачки ограничено. Это заставляет персонажей принимать выбор и развивать ту ветку, которая наиболее полезна для их игрового стиля и потребностей.\
+\
+При смерти игрока происходит потеря некоторого количества опыта. Половина опыта, полученного после смерти, направляется на восстановление навыков. Эта система позволяет компенсировать утрату опыта в результате частых смертей.
 
-When a player dies, a certain amount of experience is lost. Half of the experience gained after death is used to restore skills. This system allows you to compensate for the loss of experience as a result of frequent deaths.
+Чтобы изменить выбранную ветку развития, игрок должен пройти специальную процедуру перекачки. Такая система заставляет игроков тщательно обдумывать свои выборы и развивать те навыки, которые наиболее важны для них в данный момент игры, а не те, которые могут понадобиться в будущем.
 
-To change the selected branch of development, the player must go through a special pumping procedure. Such a system forces players to think carefully about their choices and develop the skills that are most important for them at the moment of the game, rather than those that may be needed in the future.
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>PVE-Branch</td><td></td><td><a href="pvp-vetka.md">pvp-vetka.md</a></td></tr><tr><td></td><td>MID-Branch</td><td></td><td><a href="mid-vetka.md">mid-vetka.md</a></td></tr><tr><td></td><td>PVP-Branch</td><td></td><td><a href="pve-branch.md">pve-branch.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>PVE-Ветка</td><td></td><td><a href="pvp-vetka.md">pvp-vetka.md</a></td></tr><tr><td></td><td>MID-Ветка</td><td></td><td><a href="mid-vetka.md">mid-vetka.md</a></td></tr><tr><td></td><td>PVP-Ветка</td><td></td><td><a href="pve-vetka.md">pve-vetka.md</a></td></tr></tbody></table>
 

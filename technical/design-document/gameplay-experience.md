@@ -5,58 +5,56 @@ coverY: -42
 
 # Gameplay experience
 
-## Developer's thoughts
+## Уникальный опыт
 
-The goal of this game is to create a unique experience that combines elements of exoplanet combat simulation and survival in the uncharted wilderness. The resulting combination provides a balanced balance between PVE and PVP gameplay modes, providing players with a variety of interaction options.
+Цель данной игры заключается в создании уникального опыта, объединяющего элементы боевого симулятора на экзопланете и выживания в непознанной дикой природе. Возникшее сочетание обеспечивает сбалансированное соотношение между игровыми режимами PVE и PVP, предоставляя игрокам разнообразные варианты взаимодействия.
 
-What sets this game apart is that PVE and PVP are interdependent and do not replace each other. Unlike games like Rust, Unturned and DayZ, where PVP has a predominant role, or ARK: Survival Evolved, The Forest and 7 Days to Die, where PVE is the main one, this game provides a harmonious interaction of both modes.
+Отличительной чертой этой игры является то, что PVE и PVP в ней взаимозависимы и не заменяют друг друга. В отличие от игр, таких как Rust, Unturned и DayZ, где PVP имеет преобладающую роль, или ARK: Survival Evolved, The Forest и 7 Days to Die, где PVE является главным, данная игра обеспечивает гармоничное взаимодействие обоих режимов.
 
-The PVE system gives players the opportunity to explore an unearthly environment, fight hostile creatures, and evolve in an unconventional environment. This includes surviving, gathering resources, building shelters, and exploring the environment.
+Система PVE предоставляет игрокам возможность исследовать неземную природу, сражаться с враждебными существами и развиваться в непривычных условиях. Это включает в себя выживание, сбор ресурсов, построение убежищ и разведку окружающей среды.
 
-On the other hand, the PVP system allows players to fight each other in duels and competitions, form alliances or engage in conflicts with other players. This provides unique opportunities for tactical play, team building and strategic planning.
+С другой стороны, система PVP позволяет игрокам сражаться друг с другом в поединках и соревнованиях, создавать альянсы или вступать в конфликты с другими игроками. Это предоставляет уникальные возможности для тактической игры, формирования команд и стратегического планирования.
 
-The combination of PVE and PVP in this game creates a dynamic and exciting environment where players can choose their playing style and enjoy different aspects of gameplay. As a result, players get the maximum variety of options and experiences that combine the advantages of both modes, making the game unique and appealing to a wide audience.
+Комбинация PVE и PVP в этой игре создает динамичную и захватывающую среду, где игроки могут выбирать свой стиль игры и наслаждаться различными аспектами игрового процесса. В результате, игроки получают максимальное разнообразие возможностей и ощущений, которые сочетают в себе преимущества обоих режимов, делая игру уникальной и привлекательной для широкой аудитории.
 
-## Player interactions
+## Взаимодействия игроков
 
-Due to the limited size of the game map and the high density of resources, players will often clash with each other. A similar situation is seen in other games, but unlike them, this game will use a reputation system, which aims to correct such experiences. Under this system, the more kills the player commits, the more difficulties he will encounter in the game.
-
-Before another murder, the player will think about the consequences of his action. Undoubtedly, this complicates the gameplay for clans, which tend to constantly destroy other players, because they, in turn, are also at risk of being destroyed. However, it is thanks to the reputation system that it will be possible to play alone as well as in a group.
+Из-за ограниченных размеров игровой карты и высокой плотности ресурсов, игроки часто будут сталкиваться друг с другом. Подобная ситуация наблюдается и в других играх, однако, в отличие от них, в данной игре будет применяться система репутации, которая направлена на исправление такого опыта. В рамках этой системы, чем больше игрок совершает убийств, тем больше сложностей он будет встречать в игре. Перед совершением очередного убийства, игрок-убийца будет задумываться о последствиях своего поступка. Несомненно, это усложняет игровой процесс для кланов, которые стремятся постоянно уничтожать других игроков, поскольку они в свою очередь также подвержены риску быть уничтоженными. Однако именно благодаря системе репутации будет возможно играть как в одиночку, так и в группе.
 
 ## Player vs Player
 
-An important aspect of the game is the PVP component, but the main problem inherent in most PVP survival games is the endless fighting for territory devoid of meaning or content.
+В игре важным аспектом является PVP-составляющая, однако основной проблемой, присущей большинству PVP-выживалок, является бесконечная борьба за территории лишенные смысла или содержания.
 
-To create an enjoyable gaming experience for all players, there is no way to just kill other players in this game. Almost all weapons have a medium range, which limits their effectiveness. Firearms are considered a luxury because, while they can kill quickly, they require additional resources such as oxygen, ammo, and tools to repair. In addition, firing firearms has the unpleasant characteristics of high pressure, low temperature, and a dense atmosphere that make bullets travel slower.
+Для создания приятного игрового опыта для всех игроков, в данной игре отсутствует возможность просто так убивать других игроков. Почти все оружие имеет среднюю дальность поражения, что ограничивает его эффективность. Огнестрельное оружие считается роскошью, так как, хотя оно способно быстро убивать, требует дополнительные ресурсы, такие как кислород, патроны и инструменты для починки. Кроме того, стрельба из огнестрельного оружия имеет неприятные характеристики, вызванные высоким давлением, низкой температурой и плотной атмосферой, из-за чего пули перемещаются медленнее.
 
-It is important to note that any weapon can instantly kill an opponent if the shot hits the head. This creates an equal opportunity to win based on the player's skill, rather than simply based on the type of weapon in his hands. In this case, two headshots means two dead opponents, which emphasizes the importance of player skill in gameplay.
+Важно отметить, что любое оружие может мгновенно убить противника, если выстрел попадает в голову. Это создает равные возможности для победы на основе навыков игрока, а не просто на основе типа оружия, которое находится в его руках. В таком случае, два выстрела в голову означают двух мертвых противников, что подчеркивает важность мастерства игрока в игровом процессе.
 
 ## Player vs Entity
 
-Mobs in the game are not only simple models that chase the player and can be killed. They also pose a significant threat, attack actively and require the player to be strategic. Raiding other players is worth planning just as carefully as the next mob hunt. Gameplay challenges the player not only to pay attention to other players, but also to ordinary mobs.
+Мобы в игре представляют собой не только простые модели, которые преследуют игрока и могут быть убиты. Они также представляют значительную угрозу, атакуют активно и требуют от игрока стратегического подхода. Рейд на других игроков стоит планировать так же тщательно, как и очередную охоту на мобов. Игровой процесс ставит перед игроком задачу не только обращать внимание на других игроков, но и на обычных мобов.
 
-It is important to understand that mobs have their own characteristics and abilities. They may have different attacks, vulnerabilities, tactics and difficulty levels. Some mobs may be more aggressive and dangerous than others. The player needs to consider these factors when planning his actions and choosing his fighting strategy.
+Важно понимать, что мобы обладают своими особенностями и способностями. Они могут иметь различные атаки, уязвимости, тактики поведения и уровни сложности. Некоторые мобы могут быть более агрессивными и опасными, чем другие. Игроку необходимо учитывать эти факторы при планировании своих действий и выборе стратегии борьбы.
 
-In this way, gameplay encourages the player to think not only about other players, but also about the presence and behavior of the animals. This adds depth and complexity to the game world, requiring the player to be able to make decisions, plan his actions, and interact effectively with different types of threats.
+Таким образом, игровой процесс стимулирует игрока думать не только о других игроках, но и о присутствии и поведении животных. Это добавляет глубину и сложность в игровой мир, требуя от игрока умения принимать решения, планировать свои действия и эффективно взаимодействовать с различными видами угроз.
 
-## Building in different games
+## Строительство в разных играх
 
-The building systems in Unturned and Rust are similar and almost perfect. However, Unturned lacks gravity and decay, while Rust lacks adequacy. Both games also have one flaw: the ability to build a structure within seconds.
+Системы строительства в играх Unturned и Rust схожи и практически идеальны. Однако, в Unturned не хватает гравитации и гниения, а в Rust - адекватности. Обе игры также имеют один недостаток: возможность построить сооружение в течение нескольких секунд.
 
-Xeus has a more realistic approach to building, requiring considerable effort and time from the player to build a house. This has several advantages:
+В Xeus более реалистичный подход к строительству, требующий от игрока значительных усилий и времени для построения дома. Это имеет несколько преимуществ:
 
-* Confidence in the safety of buildings: The player can be sure that his house will still be standing the next day, and in case of a failed raid, some resources will remain with him.
-* Smaller bases: By taking longer to build in Xeus, the overall size of buildings is reduced, which helps reduce the problems associated with taking over clan territories and blocking access to castles.
-* Eliminating raids for raids' sake: The long construction process in Xeus prevents random raids for no good reason. Players have to carefully plan their actions and choose the best moment to raid, thus enhancing the tactical aspect of gameplay.
+1. Уверенность в сохранности построек: Игрок может быть уверен, что его дом будет по-прежнему стоять на следующий день, и в случае неудачного рейда, часть ресурсов останется у него.
+2. Меньшие размеры баз: Благодаря тому, что в Xeus строительство занимает больше времени, общий размер построек уменьшается, что помогает уменьшить проблемы, связанные с захватом клановых территорий и блокировкой доступа к замкам.
+3. Устранение рейдов ради рейдов: Долгий процесс строительства в Xeus предотвращает случайные рейды без веской причины. Игрокам приходится тщательно планировать свои действия и выбирать оптимальный момент для рейда, усиливая таким образом тактический аспект игрового процесса.
 
-Thus, the building system in Xeus requires more effort and time from the player, which brings several advantages, such as building preservation, smaller bases, and more focused raids.
+Таким образом, система строительства в Xeus требует от игрока больше усилий и времени, что приносит несколько преимуществ, таких как сохранность построек, меньший размер баз и более целенаправленные рейды.
 
-## Inventory in different games
+## Инвентарь в разных играх
 
-Xeus takes into account the limitations of weight, number of slots, and size of items to create a more realistic and balanced game experience. This allows players to carry only a certain number of items and have limited storage options.
+В Xeus учтены ограничения, связанные с весом, количеством слотов и размером предметов, чтобы создать более реалистичный и сбалансированный игровой опыт. Это позволяет игрокам нести только определенное количество предметов и иметь ограниченные возможности хранения.
 
-Because Xeus focuses on survival rather than sorting through inventory, players don't have to spend a lot of time manipulating items as they do in games like Escape from Tarkov or Unturned. The number of item slots in Xeus is relatively small.
+Поскольку игра Xeus фокусируется на выживании, а не на сортировке инвентаря, игрокам не придется тратить много времени на манипуляции с предметами, как это бывает в играх вроде Escape from Tarkov или Unturned. Количество слотов для предметов в Xeus является относительно маленьким.
 
-This creates a problem when killing another player, especially if his inventory is full of resources. In such cases, it is almost impossible to take away all of his resources because of the limited storage and transfer options. This encourages players to take these limitations into account and make decisions about which items to take with them and which to leave behind.
+Это создает проблему при убийстве другого игрока, особенно если его инвентарь полностью заполнен ресурсами. В таких случаях практически невозможно унести все его ресурсы из-за ограниченных возможностей хранения и переноса. Это стимулирует игроков принимать во внимание эти ограничения и принимать решения о том, какие предметы стоит брать с собой и какие оставить.
 
-Thus, the weight, slot, and size limitations of items in Xeus make killing another player more problematic and require players to make strategic decisions about storing and carrying resources.
+Таким образом, ограничения веса, слотов и размеров предметов в Xeus делают убийство другого игрока более проблематичным и требуют от игроков принятия стратегических решений в отношении хранения и переноса ресурсов.
