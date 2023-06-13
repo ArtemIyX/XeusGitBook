@@ -14,7 +14,7 @@ $$
 
 _BLV_ On the example of a jacket
 
-<table><thead><tr><th width="238">Damage Type</th><th>Value</th></tr></thead><tbody><tr><td>Stabbed</td><td>1.1</td></tr><tr><td>Cutting</td><td>2</td></tr><tr><td>Рубящий</td><td>1.1</td></tr><tr><td>Chopping</td><td>1</td></tr><tr><td>Bullet</td><td>1</td></tr><tr><td>Torn</td><td>1.5</td></tr></tbody></table>
+<table><thead><tr><th width="238">Damage Type</th><th>Value</th></tr></thead><tbody><tr><td>Stabbed</td><td>1.1</td></tr><tr><td>Cutting</td><td>2</td></tr><tr><td>Chopping</td><td>1.1</td></tr><tr><td>Bullet</td><td>1</td></tr><tr><td>Torn</td><td>1.5</td></tr></tbody></table>
 
 ### Calculating damage
 
@@ -26,11 +26,11 @@ $$
 
 #### Examples of damage calculations
 
-_Example of calculating formulas for a heavy axe strike:_
+_Example of calculating formulas for a heavy axe hit:_
 
-`damage = 40 / (1.1 - бук + 1) // 36.36 Chopping Damage`
+`damage = 40 / (1.1 - blv + 1) // 36.36 Chopping Damage`
 
-`damage = 10 / (1.0 - бук + 1) // 10.00 ImpactDamage`
+`damage = 10 / (1.0 - blv + 1) // 10.00 ImpactDamage`
 
 ## Clothes slots
 
@@ -58,7 +58,7 @@ That is, for the chest and abdomen, the percentage of protection corresponds to 
 For the arms, the formula is as follows:
 
 `overlap = ((1.1 - 1) * 0.5) + 1 // 1.05`\
-`damage = 40 / (1.1 - BLV + 1 ) // 38.09`\\
+`damage = 40 / (1.1 - BLV + 1 ) // 38.09`
 
 ## Cumulative effects
 
