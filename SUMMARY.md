@@ -21,6 +21,7 @@
   * [Building](technical/design-document/building.md)
   * [Alchemy and craft](technical/design-document/alchemy-and-craft.md)
   * [Gameplay experience](technical/design-document/gameplay-experience.md)
+* [Language](technical/language.md)
 
 ## Alexander's stories
 
