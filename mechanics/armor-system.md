@@ -1,10 +1,6 @@
----
-description: Система брони и повреждений
----
-
 # Armor system
 
-## Одежда
+## Clothes
 
 Clothing has the ability to provide protection against adverse life-threatening conditions. Each armor component has a unique level of resistance to a certain type of damage, which is expressed as a numerical value by which it is divided.
 
