@@ -43,7 +43,7 @@ Thus, holding the attack key allows you to accumulate Power, which affects damag
 
 ### Block charge
 
-The charge of the unit is a numeric value that decreases from 1 to 0 after pressing the right mouse button (PCM). The charge level of the block affects the ability to absorb an attack from the enemy. The maximum charge of the block allows you to completely absorb the attack (except when the enemy uses significantly heavier weapons), while the minimum charge of the block allows you to skip the attack completely. Maintaining a block requires a certain level of endurance.
+The charge of the unit is a numeric value that decreases from 1 to 0 after pressing the right mouse button. The charge level of the block affects the ability to absorb an attack from the enemy. The maximum charge of the block allows you to completely absorb the attack (except when the enemy uses significantly heavier weapons), while the minimum charge of the block allows you to skip the attack completely. Maintaining a block requires a certain level of endurance.
 
 ## Techniques in battle
 
@@ -53,7 +53,7 @@ A kick involves the use of a separate button to perform it. During the execution
 
 A kick causes significant physical damage and pushes the opponent away if he is not in a squat position or is not protected by a shield.
 
-The impact on the shield leads to the forced knocking down of the [shield] (fighting-system.md#shit) without imposing penalties, the opponent simply lowers the shield and can then raise it again.
+The impact on the shield leads to the forced knocking down of the [shield](fighting-system.md#shield) without imposing penalties, the opponent simply lowers the shield and can then raise it again.
 
 ### Chamber
 
@@ -119,7 +119,7 @@ If a character's stamina is depleted during a fight or escape, his movement and 
 
 When blocking an attack by a character, the opponent's camera will be slightly shifted in the direction of the block, and the player's character will make a "heehy" sound.
 
-### Sharpness&#x20;
+### Sharpness
 
 Sharpness is a parameter that reflects the player's attentiveness to his weapon and affects the damage caused by cutting and slashing attacks. In the manufacture of weapons has 100% sharpening. However, it can be improved by pumping up to 125%. If the sharpening level drops to zero, all cutting and slashing damage will be lost. The value of sharpening decreases during strikes on the enemy.
 
@@ -140,7 +140,7 @@ for (float element : arr) {
 }
 ```
 
-<table><thead><tr><th width="223"></th><th></th></tr></thead><tbody><tr><td>BaseDamage</td><td>Базовый урон этого оружия некого типа</td></tr><tr><td>PowerCharge</td><td>Модификатор от уровня заряда силы</td></tr><tr><td>Sharp</td><td>Модификатор от заточки</td></tr><tr><td>AttackSideMult</td><td>Модификатор угла(стороны) атаки</td></tr><tr><td>MovementSpeedMult</td><td>Модификатор от скорости (рывок).</td></tr><tr><td>MouseSpeedMult</td><td>Модификатор от скорости движения мышки</td></tr><tr><td>JumpStrengthMult</td><td>Модификатор от прыжка</td></tr><tr><td>Damage</td><td>Проходящий урон (что дальше взаимодействует с броней)<br></td></tr></tbody></table>
+<table><thead><tr><th width="223"></th><th></th></tr></thead><tbody><tr><td>BaseDamage</td><td>The base damage of this weapon is of a certain type</td></tr><tr><td>PowerCharge</td><td>Modifier from the power charge level</td></tr><tr><td>Sharp</td><td>Modifier from sharpening</td></tr><tr><td>AttackSideMult</td><td>Attack Angle (side) Modifier</td></tr><tr><td>MovementSpeedMult</td><td>Speed modifier (dash)</td></tr><tr><td>MouseSpeedMult</td><td>Modifier of the mouse movement speed</td></tr><tr><td>JumpStrengthMult</td><td>Jump Modifier</td></tr><tr><td>Damage</td><td>Real damage</td></tr></tbody></table>
 
 ## Shield
 
@@ -163,5 +163,3 @@ When you hold down the right mouse button and simultaneously press the attack bu
 ### Shield bash (stun)
 
 There is a kind of shield attack. If during a raised shield and an empty scale to make a dash forward, the character will make a sharp jump, overcoming a greater distance than usual, then this action will stun the enemy and cause damage.
-
-\

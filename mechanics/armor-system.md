@@ -16,9 +16,9 @@ $$
 BLV ∈ [0;2]
 $$
 
-_BLV На примере куртки_
+_BLV_ On the example of a jacket
 
-<table><thead><tr><th width="238">Тип урона</th><th>Значение</th></tr></thead><tbody><tr><td>Колотый</td><td>1.1</td></tr><tr><td>Режущий</td><td>2</td></tr><tr><td>Рубящий</td><td>1.1</td></tr><tr><td>Ударный</td><td>1</td></tr><tr><td>Пулевой</td><td>1</td></tr><tr><td>Рваный</td><td>1.5</td></tr></tbody></table>
+<table><thead><tr><th width="238">Damage Type</th><th>Value</th></tr></thead><tbody><tr><td>Stabbed</td><td>1.1</td></tr><tr><td>Cutting</td><td>2</td></tr><tr><td>Рубящий</td><td>1.1</td></tr><tr><td>Chopping</td><td>1</td></tr><tr><td>Bullet</td><td>1</td></tr><tr><td>Torn</td><td>1.5</td></tr></tbody></table>
 
 ### Calculating damage
 
@@ -26,13 +26,13 @@ $$
 y = \frac{a}{r - BLV + 1}
 $$
 
-<table><thead><tr><th width="184">Переменная</th><th>Описание</th></tr></thead><tbody><tr><td>a</td><td>Количество наносимого урона</td></tr><tr><td>r</td><td>Сопротивление этого типа одежды</td></tr><tr><td>BLV</td><td>Базовая уязвимость конечности</td></tr></tbody></table>
+<table><thead><tr><th width="184">Variable</th><th>Description</th></tr></thead><tbody><tr><td>a</td><td>The amount of damage dealt</td></tr><tr><td>r</td><td>Resistance of this type of clothing</td></tr><tr><td>BLV</td><td>Basic limb vulnerability</td></tr></tbody></table>
 
 #### Examples of damage calculations
 
-_Example of calculating formulas for a heavy axe strike with characteristics:_
+_Example of calculating formulas for a heavy axe strike:_
 
-`damage = 40 / (1.1 - бук + 1) // 36.36 Chopping Damage`&#x20;
+`damage = 40 / (1.1 - бук + 1) // 36.36 Chopping Damage`
 
 `damage = 10 / (1.0 - бук + 1) // 10.00 ImpactDamage`
 
@@ -42,28 +42,27 @@ Any clothing, body armor, for example, must be placed only in a designated slot 
 
 In addition, armor can provide additional inventory slots, allowing the wearer to store and carry more items. These extra inventory slots can be used to house a variety of items, including medical supplies, extra ammo, or other necessary tools.
 
-## Перекрытие
+## Overlap
 
-Armor extends not only to its corresponding body parts, but also to neighboring body parts. For example, a jacket can also protect your abdomen and arms. The protection depends on the coating modifier. The greater it is, the greater the protection;&#x20;
+Armor extends not only to its corresponding body parts, but also to neighboring body parts. For example, a jacket can also protect your abdomen and arms. The protection depends on the coating modifier. The greater it is, the greater the protection;
 
 _Covering by example of a jacket_
 
-<table><thead><tr><th width="235">Часть тела</th><th>Перекрытие</th></tr></thead><tbody><tr><td>Голова</td><td>0.0</td></tr><tr><td>Грудь</td><td>1.0</td></tr><tr><td>Живот</td><td>1.0</td></tr><tr><td>Правая рука</td><td>0.5</td></tr><tr><td>Левая рука</td><td>0.5</td></tr><tr><td>Правая нога</td><td>0.0</td></tr><tr><td>Левая нога</td><td>0.0</td></tr></tbody></table>
+<table><thead><tr><th width="235">Limb</th><th>Overlap value</th></tr></thead><tbody><tr><td>Head</td><td>0.0</td></tr><tr><td>Chest</td><td>1.0</td></tr><tr><td>Belly</td><td>1.0</td></tr><tr><td>Right hand</td><td>0.5</td></tr><tr><td>Left hand</td><td>0.5</td></tr><tr><td>Right leg</td><td>0.0</td></tr><tr><td>Left leg</td><td>0.0</td></tr></tbody></table>
 
-### Calculation of overlapping&#x20;
+### Calculation of overlapping
 
 $$
 y = (a-1 )* p)+1
 $$
 
-<table><thead><tr><th width="159"></th><th></th></tr></thead><tbody><tr><td>a</td><td>Защита</td></tr><tr><td>p</td><td>Покрытие конечности</td></tr></tbody></table>
+<table><thead><tr><th width="159">Variable</th><th></th></tr></thead><tbody><tr><td>a</td><td>Protection</td></tr><tr><td>p</td><td>Overlap</td></tr></tbody></table>
 
-That is, for the chest and abdomen, the percentage of protection corresponds to the above. \
+That is, for the chest and abdomen, the percentage of protection corresponds to the above.\
 For the arms, the formula is as follows:
 
 `overlap = ((1.1 - 1) * 0.5) + 1 // 1.05`\
-`damage = 40 / (1.1 - BLV + 1 ) // 38.09`\
-
+`damage = 40 / (1.1 - BLV + 1 ) // 38.09`\\
 
 ## Cumulative effects
 
@@ -94,7 +93,7 @@ $$
 y =\frac{V}{C}
 $$
 
-<table><thead><tr><th width="88"></th><th></th></tr></thead><tbody><tr><td>V</td><td>Входной урон</td></tr><tr><td>C</td><td>Коэфециент защиты для данной конечности</td></tr><tr><td>P</td><td>Защита каждого элемента брони на данной конечности</td></tr><tr><td>n</td><td>Количество элементов брони на данной конечности</td></tr><tr><td>m</td><td>Модификатор защиты</td></tr><tr><td>h</td><td>Модификатор перекрытия</td></tr><tr><td>b</td><td>BLV, Base limb vulnerability (Базовая уязвимость конечности)</td></tr></tbody></table>
+<table><thead><tr><th width="88">Variable</th><th>Description</th></tr></thead><tbody><tr><td>V</td><td>Incoming damage</td></tr><tr><td>C</td><td>The coefficient of protection for this limb</td></tr><tr><td>P</td><td>Protection of each armor element on a given limb</td></tr><tr><td>n</td><td>The number of armor elements on a given limb</td></tr><tr><td>m</td><td>Protection Modifier</td></tr><tr><td>h</td><td>Overlap Modifier</td></tr><tr><td>b</td><td>Base limb vulnerability </td></tr></tbody></table>
 
 ```cpp
 double UArmor::CalculateBlockElement(double blv) const{
