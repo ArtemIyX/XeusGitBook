@@ -1,30 +1,30 @@
-# PVP-Ветка
+# PVP-Branch
 
-## <mark style="color:red;">PvP Технологии</mark>
+## <mark style="color:red;">PvP Technologies</mark>
 
-### <mark style="background-color:red;">Скаут</mark>
+### <mark style="background-color:red;">Scout</mark>
 
-С прогрессом в игре, игроки будут сталкиваться с возрастающей сложностью задач, включая экстремальные погодные условия, опасных диких животных и враждебных инопланетных существ. Путем развития навыков выживания они смогут преодолевать эти трудности и обеспечивать свое выживание в неблагоприятных условиях экзопланеты.\
-_**Иконка – солнце и тучи**_
+As they progress through the game, players will face increasingly difficult challenges, including extreme weather, dangerous wildlife and hostile alien creatures. By developing survival skills, they will be able to overcome these challenges and ensure their survival in the adverse conditions of the exoplanet.\
+_**Icon – солнце и тучи**_
 
-### <mark style="background-color:red;">Экономия выносливости</mark>
+### <mark style="background-color:red;">Saving stamina</mark>
 
-Путем развития данной способности, игрок повышает свою выносливость, что позволяет выполнять больше действий до появления усталости. Это особенно полезно в ситуациях, когда игроку необходимо убегать от опасностей, осуществлять рубку деревьев или участвовать в длительных сражениях.\
-_**Иконка – пара легких**_
+By developing this ability, the player increases his stamina, which allows him to perform more actions before fatigue sets in. This is especially useful in situations where the player needs to run away from dangers, cut down trees, or engage in long battles.\
+_**Icon – пара легких**_
 
-### <mark style="background-color:red;">Ловкость и баланс</mark>
+### <mark style="background-color:red;">Dexterity and Balance</mark>
 
-Развивая данную способность, игрок повышает свою ловкость и точность, что делает его более эффективным в дальнем бою. Кроме того, это позволяет игроку легче выполнять такие действия, как прыжки, ползание и ходьба в приседе.\
-_**Иконка – несколько предметов балансируют на весах**_
+By learning this ability, the player increases his agility and accuracy, making him more effective in ranged combat. It also makes it easier for the player to perform such actions as jumping, crawling and crouching.\
+_**Icon – несколько предметов балансируют на весах**_
 
-### <mark style="background-color:red;">Оружейное дело</mark>
+### <mark style="background-color:red;">Weaponry</mark>
 
-С использованием данной возможности игрок может освоить навыки создания и ремонта огнестрельного оружия.\
-_**Иконка - автомат**_
+Using this feature, the player can learn how to build and repair firearms.\
+_**Icon - автомат**_
 
-### <mark style="background-color:red;">Сапер</mark>
+### <mark style="background-color:red;">Sapper</mark>
 
-Позволяет игроку создавать мины, гранаты, взрывчатку.\
-_**Иконка - C4**_
+Allows the player to create mines, grenades, and explosives.
+_**Icon - C4**_
 
 \

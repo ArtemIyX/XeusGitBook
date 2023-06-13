@@ -1,40 +1,40 @@
 # MID-Branch
 
-## <mark style="color:orange;">Средние технологии</mark>
+## <mark style="color:orange;">Medium Technology</mark>
 
-### <mark style="background-color:orange;">Охотничье дело</mark>
+### <mark style="background-color:orange;">Hunting business</mark>
 
-Игроки имеют возможность овладеть навыками выслеживания животных и охоты на них, для добычи пищи и материалов. В процессе развития они могут освоить более сложные методы охоты, такие как использование ловушек и способы отлова.\
-_**Иконка – лук с натянутой стрелой**_
+Players have the opportunity to master the skills of tracking and hunting animals for food and materials. As they progress, they can learn more advanced hunting techniques, such as the use of traps and trapping methods.\
+_**Icon - bow and arrow drawn**_
 
-### <mark style="background-color:orange;">Правила этикета</mark>&#x20;
+### <mark style="background-color:orange;">Rules of etiquette</mark>&#x20;
 
-Развивая данную способность, игрок получает возможность получать более положительную репутацию и уменьшать отрицательную репутацию при взаимодействии с различными фракциями в игре.\
-_**Иконка  - улыбка**_
+By learning this ability, the player can gain more positive reputation and reduce negative reputation when interacting with different factions in the game.\
+_**Icon - smile**_
 
-### <mark style="background-color:orange;">Восприятие</mark>&#x20;
+### <mark style="background-color:orange;">Perception</mark>&#x20;
 
-Развивая данную способность, игрок повышает свою осведомленность и способность обнаруживать скрытые опасности или возможности в окружающей среде, что делает его более эффективным в исследовании и выживании. Улучшение обоняния также предоставляет больше информации и способность получать более четкое представление о происходящем.\
-_**Иконка  - глаз**_
+By learning this ability the player increases his awareness and ability to detect hidden dangers or opportunities in the environment, making him more effective at exploring and surviving. Improved sense of smell also provides more information and the ability to get a clearer picture of what's going on.\
+_**Icon - the eye**_
 
-### <mark style="background-color:orange;">Адаптация и крепость</mark>
+### <mark style="background-color:orange;">Adaptation and Fortress</mark>
 
-Развивая данную способность, игрок повышает свою устойчивость к неблагоприятным факторам окружающей среды, таким как радиация, экстремальная жара или холод, а также токсичные вещества. Это делает его более устойчивым к опасностям экзопланеты, снижает урон, получаемый им, и смягчает негативные последствия от полученных ран.\
-_**Иконка  - щит**_
+By learning this ability the player increases his resistance to adverse environmental factors such as radiation, extreme heat or cold, and toxic substances. This makes him more resistant to the dangers of the exoplanet, reduces the damage he receives and mitigates the negative effects of his wounds.\
+_**Icon - shield**_
 
-### <mark style="background-color:orange;">Добыча пищи</mark>
+### <mark style="background-color:orange;">Food Extraction</mark>
 
-Развивая данную способность, игрок повышает свою эффективность в сборе пищи, воды и других ресурсов из окружающей среды, таких как фрукты, орехи и грибы.\
-_**Иконка - стейк**_
+By learning this ability the player increases his effectiveness in gathering food, water, and other resources from the environment, such as fruits, nuts, and mushrooms.\
+_**Icon - steak**_
 
-### <mark style="background-color:orange;">Скрытность</mark>
+### <mark style="background-color:orange;">Stealth</mark>
 
-Развивая данную способность, игрок повышает свою способность передвигаться бесшумно и избегать обнаружения, что пригодится для уклонения от опасных диких животных или враждебных игроков.\
-_**Иконка - капюшон**_
+By learning this ability, the player enhances his ability to move silently and avoid detection, which comes in handy for evading dangerous wild animals or hostile players.\
+_**Icon - hood**_
 
-### <mark style="background-color:orange;">Рыбалка</mark>
+### <mark style="background-color:orange;">Fishing</mark>
 
-Развивая данную способность, игрок повышает свою эффективность в ловле рыбы и других водных животных, что позволяет обеспечивать себя пищей и другими необходимыми ресурсами.\
-_**Иконка - удочка**_
+By learning this ability, the player improves his ability to move silently and avoid detection, which comes in handy for dodging dangerous wild animals or hostile players.\
+_**Icon - fishing rod**_
 
 \
