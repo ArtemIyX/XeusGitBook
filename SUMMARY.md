@@ -8,9 +8,9 @@
 * [Armor system](mechanics/armor-system.md)
 * [Tech evolution](mechanics/tech-evolution/README.md)
   * [PVE-Branch](mechanics/tech-evolution/pve-branch.md)
-  * [MID-Ветка](mechanics/tech-evolution/mid-vetka.md)
-  * [PVP-Ветка](mechanics/tech-evolution/pvp-vetka.md)
-  * [ADD-Ветка](mechanics/tech-evolution/add-vetka.md)
+  * [MID-Branch](mechanics/tech-evolution/mid-vetka.md)
+  * [PVP-Branch](mechanics/tech-evolution/pvp-vetka.md)
+  * [ADD-Branch](mechanics/tech-evolution/add-vetka.md)
 
 ## Technical
 
