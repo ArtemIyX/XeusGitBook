@@ -1,133 +1,133 @@
 ---
-description: Система боя на холодном оружие
+description: Combat system for melee
 ---
 
 # Fighting system
 
-## Основные сведения
+## Basic information
 
-### Характеристики
+### Specifications
 
-Оружие содержит следующие данные:
+The weapon contains the following data:
 
-* Направления атаки: оно сохраняет информацию о различных направлениях атаки, их скорости, модификаторе урона и общей эффективности.
-* Тип урона от направления: оружие также определяет тип урона, который будет причинен в зависимости от выбранного направления атаки.
-* Длина: оружие имеет определенную длину, которая указывает на дальность его досягаемости.
-* Вес: каждое оружие обладает своим весом, который может влиять на скорость и маневренность персонажа при использовании оружия.
-* Заточка: оружие может иметь определенный уровень заточки, который влияет на его эффективность и силу удара.
-* Состояние: информация о состоянии оружия, такая как целостность, изношенность или повреждения.
-* Нанесено ли зелье: также может быть указано, было ли применено какое-либо зелье к оружию, влияющее на его характеристики или эффекты атаки.
+* Attack directions: it stores information about different attack directions, their speed, damage modifier and overall efficiency.
+* Directional damage type: the weapon also determines the type of damage that will be dealt depending on the chosen direction of attack.
+* Length: weapons have a certain length, which indicates their range.
+* Weight: each weapon has its own weight, which can affect the character's speed and maneuverability when using the weapon.
+* Sharpening: a weapon can have a certain level of sharpening, which affects its effectiveness and impact force.
+* Status: information about the weapon's state, such as integrity, wear or damage.
+* Potion applied: it can also indicate if any potion has been applied to the weapon that affects its characteristics or attack effects.
 
-### Направление атаки
+### Direction of attack
 
-Процесс выбора направления атаки включает следующие шаги:
+The process of choosing the direction of the attack includes the following steps:
 
-* Движение персонажа: Во время активного перемещения персонажа в одно из направлений (вперед, назад, влево, вправо), выполняется действие выбора направления атаки.
-* Нажатие кнопки атаки: Пользователь нажимает на кнопку атаки, используя левую кнопку мыши (ЛКМ). Это инициирует процесс выбора направления атаки.
-* Позиционирование оружия: Персонаж автоматически позиционирует оружие в соответствии с выбранным направлением атаки. Например, для атаки сверху, выпада, атаки слева или атаки справа, оружие будет установлено в соответствующую позицию.
-* Выполнение атаки: Чтобы персонаж осуществил атаку, пользователь должен отпустить кнопку атаки. Это действие сигнализирует о начале выполнения атаки в выбранном направлении.
+* Character movement: While the character is actively moving in one direction (forward, backward, left, right), an attack direction selection action is performed.
+* Clicking the attack button: The user clicks the attack button using the left mouse button (LMB). This initiates the attack direction selection process.
+* Weapon positioning: The character automatically positions the weapon according to the chosen attack direction. For example, to attack from above, to lunge, to attack from the left or to attack from the right, the weapon will be positioned in the appropriate position.
+* Making an attack: In order for the character to make an attack, the user must release the attack button. This action signals the start of the attack in the selected direction.
 
-### Направление блока
+### Block direction
 
-Процесс выбора направления блока аналогичен процессу выбора направления атаки, за исключением использования правой кнопки мыши (ПКМ) вместо левой кнопки мыши (ЛКМ). Важно отметить, что более тяжелое оружие имеет преимущество при пробивании блока и более эффективно поглощает атаку, по сравнению с оружием меньшей массы.
+The process of choosing the block direction is similar to the process of choosing the attack direction, except using the right mouse button (RMB) instead of the left mouse button (LMB). It is important to note that heavier weapons have an advantage in block piercing and more efficient attack absorption compared to weapons of lesser mass.
 
-### Заряд атаки
+### Attack charge
 
-При продолжительном удержании клавиши атаки происходит накопление Силы, которая является модификатором урона (от ×0.5 до ×2) и зависит от характеристик конкретного оружия. Скорость накопления Силы также зависит от параметров оружия.
+When the attack key is held for a long time, the Force accumulates, which is a damage modifier (from 0.5 to 2 ×) and depends on the characteristics of a particular weapon. The rate of accumulation of Power also depends on the parameters of the weapon.
 
-При достижении максимального уровня Силы атака способна пробить блок противника. Однако накопление и поддержание Силы требуют затрат выносливости персонажа. Более тяжелое оружие требует более длительного времени для накопления Силы и при этом снижает выносливость персонажа в большей степени.
+When the maximum Power level is reached, the attack is able to break through the opponent's block. However, the accumulation and maintenance of Strength requires the expenditure of endurance of the character. Heavier weapons require a longer time to accumulate Strength and at the same time reduce the endurance of the character to a greater extent.
 
-Если персонаж удерживает клавишу атаки слишком долго, уровень Силы начинает уменьшаться. При снижении уровня Силы до нуля персонаж опускает оружие и на некоторое время теряет возможность эффективно использовать его (налагается штраф).
+If the character holds down the attack key for too long, the Power level begins to decrease. When the Power level drops to zero, the character lowers the weapon and loses the ability to use it effectively for a while (a fine is imposed).
 
-Таким образом, удержание клавиши атаки позволяет накапливать Силу, что влияет на модификацию урона, но требует затрат выносливости. Важно контролировать уровень Силы, чтобы избежать снижения ее до нуля и связанного с этим временного ограничения на использование оружия.
+Thus, holding the attack key allows you to accumulate Power, which affects damage modification, but requires stamina. It is important to control the level of Force in order to avoid reducing it to zero and the associated time limit on the use of weapons.
 
-### Заряд блока
+### Block charge
 
-Заряд блока представляет собой числовое значение, которое уменьшается от 1 до 0 после нажатия правой кнопки мыши (ПКМ). Уровень заряда блока оказывает влияние на способность поглощать атаку от противника. Максимальный заряд блока позволяет полностью поглотить атаку (за исключением случаев, когда противник использует существенно более тяжелое оружие), в то время как минимальный заряд блока позволяет пропустить атаку полностью. Поддержание блока требует определенного уровня выносливости.
+The charge of the unit is a numeric value that decreases from 1 to 0 after pressing the right mouse button (PCM). The charge level of the block affects the ability to absorb an attack from the enemy. The maximum charge of the block allows you to completely absorb the attack (except when the enemy uses significantly heavier weapons), while the minimum charge of the block allows you to skip the attack completely. Maintaining a block requires a certain level of endurance.
 
-## Приемы в бою
+## Techniques in battle
 
-### Удар ногой
+### Kick
 
-Удар ногой предусматривает использование отдельной кнопки для его выполнения. Во время выполнения удара нельзя перемещаться, однако, если удар выполняется во время рывка, он не будет прерываться, а урон будет увеличен.
+A kick involves the use of a separate button to perform it. During the execution of the blow, you cannot move, however, if the blow is performed during the jerk, it will not be interrupted, and the damage will be increased.
 
-Удар ногой наносит значительный физический урон и отталкивает противника, если тот не находится в положении приседа или не защищается щитом.
+A kick causes significant physical damage and pushes the opponent away if he is not in a squat position or is not protected by a shield.
 
-Воздействие на щит приводит к принудительному сбиванию [щита](fighting-system.md#shit) без наложения штрафов, противник просто опускает щит и может затем поднять его снова.
+The impact on the shield leads to the forced knocking down of the [shield] (fighting-system.md#shit) without imposing penalties, the opponent simply lowers the shield and can then raise it again.
 
-### Чембер
+### Chamber
 
-Чембер представляет собой сложную технику, объединяющую блокировку и атаку. При выполнении удара противника через несколько миллисекунд после него в ту же сторону, вы можете выполнить чембер. В результате атака противника будет отбита, а затем, через краткое время, автоматически нанесен удар врагу с минимальной возможностью его блокировки.
+The chamber is a complex technique that combines blocking and attack. When executing an opponent's strike a few milliseconds after it in the same direction, you can perform a chamber. As a result, the enemy's attack will be repulsed, and then, after a short time, the enemy will be automatically struck with minimal possibility of blocking it.
 
-Например, если вас атакуют сверху и вы только что отпустили кнопку левого клика мыши (т.е., атака запущена), и в этот момент вы быстро нажмете левую кнопку мыши с той же стороны, вы сможете заблокировать атаку противника и нанести урон ему.
+For example, if you are attacked from above and you have just released the left mouse click button (i.e., the attack is launched), and at that moment you quickly press the left mouse button from the same side, you will be able to block the enemy's attack and cause damage to him.
 
-### Клинч
+### Clinch
 
-При одновременном максимальном ударе игроков возникает состояние клинча, в котором специальная анимация демонстрирует, как персонажи применяют силу оружия друг против друга. В этот момент игрокам предлагается участвовать в мини-игре, в которой необходимо последовательно нажимать определенные кнопки. Тот игрок, кто опередит противника в выполнении N-количества нажатий, нанесет урон.
+With the simultaneous maximum impact of the players, a clinch state occurs, in which a special animation demonstrates how the characters use the force of weapons against each other. At this point, players are invited to participate in a mini-game in which you need to press certain buttons sequentially. The player who gets ahead of the opponent in performing the N-number of taps will cause damage.
 
-Если ни один из игроков не сумел опередить противника в выполнении N-количества нажатий, клинч завершается, и оба игрока автоматически производят рывок назад по обычной цене выносливости. Однако, во время клинча игрок может совершить рывок назад, чтобы прекратить состояние клинча, но это потребует двукратного расхода выносливости по сравнению с обычным рывком.
+If none of the players managed to get ahead of the opponent in performing the N-number of clicks, the clinch ends, and both players automatically make a dash back at the usual price of endurance. However, during the clinch, the player can make a jerk back to stop the clinch state, but this will require twice the expenditure of stamina compared to a normal jerk.
 
-#### Механика мини-игры во время клинча
+#### The mechanics of the mini-game during the clinch
 
-В случае клинча игроки взаимодействуют с мини-игрой, где необходимо последовательно нажимать определенные кнопки. Каждый игрок имеет свой уникальный набор кнопок, и оба игрока нажимают кнопки независимо друг от друга. Из-за отсутствия видимости нажатий противника, игроки не могут наблюдать за тем, какие кнопки он нажимает. Основная цель заключается в том, чтобы первым достичь конечной точки мини-игры, например, совершив 10 последовательных нажатий.
+In the case of a clinch, players interact with a mini-game where certain buttons must be pressed sequentially. Each player has their own unique set of buttons, and both players press the buttons independently of each other. Due to the lack of visibility of the opponent's clicks, players cannot observe which buttons he presses. The main goal is to be the first to reach the end point of the mini-game, for example, by making 10 consecutive taps.
 
-Важно отметить, что кнопки, которые необходимо нажать, появляются в случайном порядке в определенном радиусе от центра экрана. Таким образом, игрокам требуется быстро ориентироваться и реагировать на появление кнопок в реальном времени.
+It is important to note that the buttons to be pressed appear randomly in a certain radius from the center of the screen. Thus, players need to quickly navigate and react to the appearance of buttons in real time.
 
 {% hint style="info" %}
-Для того чтобы показать игрокам их текущее положение относительно противника, необходимо отображать информацию о том, насколько каждый из игроков опережает или отстает от противника в выполнении нажатий кнопок. Это может быть представлено визуально, например, в виде прогресс-бара или числового значения, отображающего прогресс каждого игрока к достижению 10 нажатий.
+In order to show the players their current position relative to the opponent, it is necessary to display information about how each of the players is ahead or behind the opponent in performing button presses. This can be represented visually, for example, in the form of a progress bar or a numeric value showing the progress of each player to reach 10 taps.
 {% endhint %}
 
-### Рипост
+### Riposte
 
-При зажатии кнопки атаки (левая кнопка мыши) и последующем нажатии кнопки блока (правая кнопка мыши), заряд атаки преобразуется в заряд блока, но не будет продолжать накапливаться. Если персонаж в это время находится в движении, направление атаки автоматически изменяется в соответствии с текущим направлением движения.
+When you hold down the attack button (left mouse button) and then press the block button (right mouse button), the attack charge is converted into a block charge, but will not continue to accumulate. If the character is in motion at this time, the direction of attack automatically changes according to the current direction of movement.
 
-Если во время удержания кнопки блока (правая кнопка мыши) и отпускания этой кнопки (но при удержании кнопки атаки - левая кнопка мыши), заряд блока преобразуется в заряд силы, но не будет продолжать накапливаться. Если персонаж в это время находится в движении, направление атаки также будет соответствовать текущему направлению движения.
+If while holding the block button (the right mouse button) and releasing this button (but while holding the attack button - the left mouse button), the charge of the block is converted into a charge of force, but will not continue to accumulate. If the character is in motion at this time, the direction of attack will also correspond to the current direction of movement.
 
-## Ведение боя
+## Conducting a battle
 
-### Направление блока/атаки
+### Block/Attack direction
 
-Оружие обладает основными и второстепенными направлениями атаки. При выполнении атаки из основного направления применяется основной тип урона, соответствующий данному оружию (например, для копья это выпад и колющий урон). В случае атаки из второстепенного направления используется второстепенный тип урона (например, для копья это все остальные атаки и ударный урон).
+The weapon has primary and secondary attack directions. When performing an attack from the main direction, the main type of damage corresponding to this weapon is applied (for example, for a spear, this is a lunge and stabbing damage). In the case of an attack from a secondary direction, a secondary type of damage is used (for example, for a spear, this is all other attacks and shock damage).
 
-При движении мышкой в направлении атаки наносимый урон увеличивается, а при движении в противоположном направлении урон уменьшается. Это позволяет игроку контролировать силу удара, основываясь на движении мышки.
+When moving the mouse in the direction of the attack, the damage inflicted increases, and when moving in the opposite direction, the damage decreases. This allows the player to control the impact force based on the mouse movement.
 
-Длина оружия оказывает влияние на радиус поражения. Оружие с большей длиной имеет больший радиус, что позволяет достичь целей на большем расстоянии.
+The length of the weapon affects the radius of destruction. Weapons with a longer length have a larger radius, which allows you to reach targets at a greater distance.
 
-### Рывки и движение
+### Dashes
 
-При нажатии определенных кнопок игрок может выполнить рывок в определенном направлении, что позволяет использовать его для уклонения от атак. Если игрок совершает рывок в направлении врага или просто приближается к нему и атакует, то урон, наносимый врагу, увеличивается. Однако, если игрок совершает рывок назад или отступает, урон будет меньше.
+By pressing certain buttons, the player can make a dash in a certain direction, which allows him to use it to evade attacks. If the player makes a dash in the direction of the enemy or simply approaches him and attacks, then the damage inflicted on the enemy increases. However, if the player makes a dash back or retreats, the damage will be less.
 
-Некоторые типы урона могут остановить движение и атаку игрока, если они проникают сквозь защиту и превышают определенный порог урона. Если удар приходит в область головы и наносит урон выше определенного предела, то возникает эффект оглушения, в результате которого игрок не может атаковать и выполнять рывки.
+Some types of damage can stop a player's movement and attack if they penetrate the defense and exceed a certain damage threshold. If a blow hits the head area and causes damage above a certain limit, then a stun effect occurs, as a result of which the player cannot attack and perform jerks.
 
-### Индикаторы заряда атаки
+### Attack charge indicators
 
-В процессе накопления заряда атаки персонаж будет производить аудиальные эффекты в форме звука вдоха. Когда заряд достигнет максимального значения, произойдет пауза. Если игрок совершит атаку в этот момент, персонаж издаст звук резкого выдоха с рыком. Если заряд начнет уменьшаться, будет слышен звук выдоха. Если атака будет совершена не на максимальном заряде, игрок услышит просто резкий выдох. Оба игрока - и игрок, и его оппонент, будут воспринимать эти звуки.
+During the accumulation of the attack charge, the character will produce auditory effects in the form of the sound of inspiration. When the charge reaches the maximum value, there will be a pause. If the player makes an attack at this moment, the character will make a sharp exhalation sound with a growl. If the charge starts to decrease, the sound of exhalation will be heard. If the attack is not made at the maximum charge, the player will hear just a sharp exhalation. Both the player and his opponent will perceive these sounds.
 
-Во время зарядки атаки видно мерцание на оружии, начиная от рукоятки и до конца. Когда это мерцание достигнет конца, атака будет полностью заряжена. Если игрок упустит этот момент, мерцание исчезнет. Этот эффект виден как для игрока, так и для оппонента.
+While charging the attack, you can see a flicker on the weapon, starting from the handle to the end. When this flicker reaches the end, the attack will be fully charged. If the player misses this moment, the flicker will disappear. This effect is visible to both the player and the opponent.
 
-Будут использованы индикаторы попадания. Если игрок попадет по врагу, будет проигран специальный звук. Если попадание произойдет в голову, звук будет более "сочным". Если будет нанесен критический урон (урон, превышающий базовое значение в два раза), персонаж издаст звук "хыхыхы".
+Hit indicators will be used. If the player hits an enemy, a special sound will be played. If a hit occurs in the head, the sound will be more "juicy". If critical damage is dealt (damage exceeding the base value by two times), the character will make a "hyhy" sound.
 
-### Индикатор уворота
+### Dodge indicator
 
-В случае, когда противник промахнулся по персонажу из-за его рывка, персонаж будет издавать звук "хыхыхы".
+In the case when the opponent missed the character due to his jerk, the character will make a sound of "hyhy".
 
-### Выносливость
+### Endurance
 
-В случае истощения выносливости у персонажа во время боя или побега, его движение и способность вести бой не запрещается, однако наступает штраф, влияющий на большинство параметров персонажа, а также наносится урон, пропорциональный уровню выносливости. Постепенно это приводит к снижению общего тонуса персонажа и, в конечном итоге, может привести к потере сознания.
+If a character's stamina is depleted during a fight or escape, his movement and ability to fight are not prohibited, however, a penalty is imposed that affects most of the character's parameters, and damage is also inflicted proportional to the level of endurance. Gradually, this leads to a decrease in the overall tone of the character and, eventually, can lead to loss of consciousness.
 
-### Реакция на полный блок
+### Reaction to the full block
 
-При блокировании атаки персонажем, камера оппонента будет немного смещена в направлении блока, а персонаж игрока издаст звук "хыхы".
+When blocking an attack by a character, the opponent's camera will be slightly shifted in the direction of the block, and the player's character will make a "heehy" sound.
 
-### Острота&#x20;
+### Sharpness&#x20;
 
-Острота - это параметр, который отражает внимательность игрока к своему оружию и влияет на урон, наносимый режущими и рубящими атаками. При изготовлении оружие имеет 100% заточки. Однако его можно улучшить, докачав до 125%. Если уровень заточки понизится до нуля, весь режущий и рубящий урон будет потерян. Значение заточки снижается во время ударов по противнику.
+Sharpness is a parameter that reflects the player's attentiveness to his weapon and affects the damage caused by cutting and slashing attacks. In the manufacture of weapons has 100% sharpening. However, it can be improved by pumping up to 125%. If the sharpening level drops to zero, all cutting and slashing damage will be lost. The value of sharpening decreases during strikes on the enemy.
 
-### Бекстаб
+### Backstab
 
-В случае, когда персонаж наносит удар по противнику в спину, когда тот находится в стоячем положении, урон будет удвоен.
+In the case when the character strikes the opponent in the back when he is in a standing position, the damage will be doubled.
 
-## Промежуточная формула
+## Intermediate formula
 
 ```cpp
 TArray<float> arr = { 
@@ -142,26 +142,26 @@ for (float element : arr) {
 
 <table><thead><tr><th width="223"></th><th></th></tr></thead><tbody><tr><td>BaseDamage</td><td>Базовый урон этого оружия некого типа</td></tr><tr><td>PowerCharge</td><td>Модификатор от уровня заряда силы</td></tr><tr><td>Sharp</td><td>Модификатор от заточки</td></tr><tr><td>AttackSideMult</td><td>Модификатор угла(стороны) атаки</td></tr><tr><td>MovementSpeedMult</td><td>Модификатор от скорости (рывок).</td></tr><tr><td>MouseSpeedMult</td><td>Модификатор от скорости движения мышки</td></tr><tr><td>JumpStrengthMult</td><td>Модификатор от прыжка</td></tr><tr><td>Damage</td><td>Проходящий урон (что дальше взаимодействует с броней)<br></td></tr></tbody></table>
 
-## Щит
+## Shield
 
-### Описание щита
+### Shield description
 
-Щит имеет постоянный хитбокс, который защищает от стрел. У щита также есть прочность, которая тратится при поглощении урона. В зависимости от типа щита, он может либо сломаться и исчезнуть, либо потерять всю свою эффективность (при этом оставаясь в инвентаре для возможной починки)
+The shield has a permanent hitbox that protects against arrows. The shield also has durability, which is spent when absorbing damage. Depending on the type of shield, it can either break and disappear, or lose all its effectiveness (while remaining in the inventory for possible repairs)
 
-### Работа щита
+### Shield usage
 
-Для поднятия щита необходимо нажать правую кнопку мыши (ПКМ). При поднятии щита появляется шкала, которая заполняется при блокировании атак. Чем больше заполнена эта шкала, тем быстрее расходуется выносливость персонажа (даже при нулевом заполнении шкалы выносливость все равно медленно уменьшается). Когда шкала достигает максимального значения, рука персонажа принудительно опускается, и щит становится недоступен на некоторое время. Кроме того, шкала начинает медленно заполняться через три секунды после поднятия щита.
+To raise the shield, you need to press the right mouse button. When the shield is raised, a scale appears, which is filled when blocking attacks. The more this scale is filled, the faster the character's stamina is consumed (even if the scale is filled to zero, the stamina still slowly decreases). When the scale reaches the maximum value, the character's hand is forcibly lowered, and the shield becomes unavailable for a while. In addition, the scale begins to fill up slowly three seconds after raising the shield.
 
-При блокировке атаки щитом, когда шкала пуста, атакующий оппонент не может атаковать в течение нескольких секунд. В этот момент игрок имеет возможность перейти в контратаку.
+When blocking an attack with a shield, when the scale is empty, the attacking opponent cannot attack for several seconds. At this point, the player has the opportunity to go into a counterattack.
 
-Примитивные щиты предназначены только для защиты от стрел, они не способны остановить пули. Однако продвинутые щиты обеспечивают полную защиту от обстрела.
+Primitive shields are designed only to protect against arrows, they are not able to stop bullets. However, advanced shields provide full protection from shelling.
 
-### Удар щитом
+### Shield attack
 
-При зажатии правой кнопки мыши (ПКМ) и одновременном нажатии кнопки атаки, персонаж совершит удар щитом. Радиус этой атаки небольшой, и сразу после удара персонаж не может продолжать держать щит. В случае попадания этой атаки по противнику, он будет оглушен.
+When you hold down the right mouse button and simultaneously press the attack button, the character will strike with a shield. The radius of this attack is small, and immediately after the strike, the character cannot continue to hold the shield. If this attack hits the enemy, he will be stunned.
 
-### Баш щитом
+### Shield bash (stun)
 
-Существует разновидность атаки щитом. Если во время поднятого щита и пустой шкалы выполнить рывок вперед, персонаж совершит резкий прыжок, преодолевая большее расстояние, чем обычно, то это действие оглушит противника и нанесет урон.
+There is a kind of shield attack. If during a raised shield and an empty scale to make a dash forward, the character will make a sharp jump, overcoming a greater distance than usual, then this action will stun the enemy and cause damage.
 
 \
