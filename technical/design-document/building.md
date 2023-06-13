@@ -1,26 +1,30 @@
 ---
+description: Система строительства
 cover: ../../.gitbook/assets/building-min.png
 coverY: 67
 ---
 
 # Building
 
-The game has a construction system that allows players to place different elements:
+В игре имеется система строительства, которая позволяет игрокам размещать различные элементы:
 
-* Structures: These are parts of buildings, such as foundations, walls, posts and doorways. Buildings have several levels (shooting galleries), each with a large number of strength points. To break a building, you must use a tool of the appropriate level and dash.
-* Objects: these are small objects that can only be placed on the foundation or roof. Objects usually have a limited amount of strength and often perform certain functions.
+1. Постройки: это части зданий, такие как фундаменты, стены, столбы и дверные проемы. Постройки имеют несколько уровней (тиров), каждый из которых обладает большим количеством очков прочности. Чтобы поломать постройку, требуется использовать инструмент соответствующего уровня и тира.
+2. Объекты: это мелкие предметы, которые могут быть размещены только на фундаменте или крыше. Объекты обычно имеют ограниченное количество прочности и зачастую выполняют определенные функции.
 
-Creating(placing) and improving buildings takes time, which takes a certain number of game cycles. In addition, buildings can be instantly destroyed within a certain amount of time after installation.
+Установка и улучшение построек требуют времени, которое занимает определенное количество игровых циклов. Кроме того, постройки могут быть мгновенно разрушены в течение определенного времени после установки.
 
-Their strength can be restored by using appropriate resources. Over time, buildings are susceptible to rotting. To prevent rotting, it is necessary to have some facility that will expend resources to keep the "house" in good condition.
+Постройки также могут быть отремонтированы, если они получили повреждения. Их прочность можно восстановить, используя соответствующие ресурсы.
 
-Some mechanisms and systems require bio-energy to operate. Bioenergy can be obtained from various generators or from other sources in the game world.\
-All defensive structures require a power source for their operation.
+Со временем постройки подвержены гниению. Чтобы предотвратить гниение, необходимо иметь определенный объект, который будет расходовать ресурсы на поддержание "дома" в хорошем состоянии.
+
+Некоторые механизмы и системы требуют био-энергию для работы. Био-энергию можно получить из различных генераторов или из других источников в игровом мире.
+
+Все защитные постройки требуют источник питания для своей работы.
 
 {% hint style="warning" %}
-The locking system has changed
+Система замков потерпела изменения
 {% endhint %}
 
-Basic locks used on doors or chests require a key to open. One key can be used to open multiple locks. Any player who has the appropriate key in his inventory can open a lock.&#x20;
+Базовые замки, используемые на дверях или сундуках, требуют ключа для открытия. Один ключ может использоваться для открытия нескольких замков. Любой игрок, у которого есть соответствующий ключ в инвентаре, может открыть замок.
 
-Simple locks that are used with keys can be picked by other players using special methods or tools.
+Простые замки, которые используются с ключами, могут быть взломаны другими игроками с помощью специальных методов или инструментов.

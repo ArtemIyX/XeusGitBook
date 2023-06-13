@@ -1,28 +1,31 @@
 ---
+description: Алхимия, крафт, дополнение шизы
 cover: ../../.gitbook/assets/AlchemistTable-min.png
 coverY: 216
 ---
 
 # Alchemy and craft
 
-## Alchemy
+## Алхимия
 
-[Brain disruption](character-state.md#brain-disruption) is a negative state in the game. When reaching 0% braind disruption, the character gets into a very difficult state, which can lead to his death.
+[Шиза](character-state.md#shiza) является негативным состоянием в игре. При достижении 0% шизы, персонаж попадает в очень сложное состояние, которое может привести к его смерти.
 
-Brain disruption can be cured by normal waiting, but when killed en masse the game becomes difficult and requires special attention and effort on the part of the player. Anti-disruption is a cure that can temporarily delay the reduction of schizophrenia, but can have negative effects on the character in return.
+Шиза может быть излечена путем обычного ожидания, но при массовом убийстве игра становится сложной и требует особого внимания и усилий со стороны игрока.
 
-A low level of braind disruption unlocks crafting recipes that are not available in the normal state. Creating these items requires resources that can only be obtained while in the low schizo state.
+Антишизин - это лекарство, которое позволяет временно задержать уменьшение шизы, но взамен может иметь негативные последствия для персонажа.
 
-Basically, these crafting recipes are related to the creation of alchemical medicines that can help restore health and overcome the negative effects of the game world. This gives the player the ability to use unique and valuable resources while in a low braind disruption state to create effective medicines.
+При низком уровне шизы открываются рецепты крафта, которые недоступны в обычном состоянии. Для создания этих предметов требуются ресурсы, которые можно добыть только при нахождении в низком состоянии шизы.
 
-## Crafting
+В основном, эти рецепты крафта связаны с созданием алхимических лекарств, которые могут помочь восстановить здоровье и преодолеть негативные эффекты игрового мира. Это предоставляет игроку возможность использовать уникальные и ценные ресурсы при низком уровне шизы для создания эффективных лекарственных средств.
 
-In the game, crafting is the process of creating items using recipes. Each recipe specifies which items are needed to create a particular item. Crafting requires a certain amount of time to complete.
+## Крафт
 
-When the player is away from the crafting station, he has limited options for crafting. Basically, only basic items can be produced, or simple actions that do not require complex tools can be performed. Handcrafting can be difficult and time-consuming.
+В игре крафт представляет собой процесс создания предметов с использованием рецептов. Каждый рецепт указывает, какие элементы необходимы для создания конкретного предмета. Крафт требует определенное время на его выполнение.
 
-Basic and more complex items can be created in a crafting station. In order to use a crafting station, the player must be in the vicinity of it. This may require building and maintaining an appropriate station in the game world.
+Когда игрок находится вне станции крафта, он имеет ограниченные возможности для крафта. В основном, можно производить только базовые предметы или выполнить простые действия, которые не требуют сложных инструментов. Крафт на руках может быть затруднительным и занимать много времени.
 
-Recipes for crafting can be obtained in various ways. Some recipes can be unlocked as you level up your character. Other recipes can be learned at special study tables that are available in the game world. Recipes can also be found in special events such as airdrops or other sources in the game world.
+Основные и более сложные предметы могут быть созданы на станции крафта. Чтобы использовать станцию крафта, игрок должен находиться поблизости от нее. Это может потребовать построения и поддержания соответствующей станции в игровом мире.
 
-Recipes represent a key component for development and progression in the game. Players should strive to obtain new recipes in order to expand their ability to craft and create more complex items.
+Рецепты для крафта можно получить различными способами. Некоторые рецепты могут быть открыты по мере прокачки уровня персонажа. Другие рецепты могут быть изучены на специальных столах изучения, которые доступны в игровом мире. Также рецепты могут быть найдены в специальных событиях, таких как аирдропы или другие источники в игровом мире.
+
+Рецепты представляют собой ключевую составляющую для развития и прогрессирования в игре. Игроки должны стремиться получить новые рецепты, чтобы расширить свои возможности в крафте и создании более сложных предметов.

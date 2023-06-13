@@ -1,80 +1,81 @@
 ---
+description: Механики состояния персонажа
 cover: ../../.gitbook/assets/characterState-min.png
 coverY: 107
 ---
 
 # Character State
 
-## Hunger
+## Голод
 
-A character, like normal humans, has a need for food. At a low level of hunger, the character ceases to show the ability to regenerate health. At a very low level of hunger, the character starts to lose health until complete death. In this case the starvation effect is applied.
+Персонаж, аналогично обычным людям, обладает потребностью в пище. При низком уровне голода персонаж перестает проявлять способность к регенерации здоровья. При очень низком уровне голода персонаж начинает терять здоровье до полной смерти. В таком случае применяется эффект голода.
 
-Even after rebirth (respawn) the character maintains low food requirement, which leads to lack of health regeneration ability. Regeneration of the hunger level is not instantaneous, but takes some time.
+Даже после перерождения (респавна) персонаж сохраняет низкую потребность в пище, что приводит к отсутствию способности регенерации здоровья. Восстановление уровня голода не происходит мгновенно, а занимает определенное время.
 
-## Thirst
+## Жажда
 
-The character expresses a great need to consume water. If thirst is low, the character loses the ability to regenerate health. If thirst is very low, the character suffers a quick death within seconds.
+Персонаж выражает огромную потребность в потреблении воды. При низком уровне жажды персонаж теряет способность к регенерации здоровья. При очень низком уровне жажды персонаж подвергается быстрой гибели в течение нескольких секунд.
 
-Even after rebirth (respawn) the character continues to have a small need to drink, as a result of which his health is not regenerated. However, the thirst level is restored instantly, without delay.
+Даже после перерождения (респавна) персонаж продолжает испытывать небольшую потребность в питье, в результате чего его здоровье не восстанавливается. Однако, уровень жажды восстанавливается моментально, без задержек.
 
-## Energy (stamina)
+## Энергия
 
 {% hint style="info" %}
-Stamina limits are a significant game design issue
+Ограничения стамины является существенним вопросом геймдизайна
 {% endhint %}
 
-In the game the character uses up energy when performing any physical activity. The energy level can drop as low as 0%. However, a certain percentage of stamina is required to perform certain actions. For example, it is impossible to perform a jump with 0% stamina.
+В игре персонаж расходует энергию при выполнении любой физической нагрузки. Уровень энергии может падать до 0%. Однако, для выполнения определенных действий необходим определенный процент стамины. Например, невозможно выполнить прыжок при 0% стамины.
 
-Stamina regeneration rate directly depends on the state of other character's characteristics. For example, the level of hunger and thirst can affect the rate of stamina regeneration. More satisfied needs for food and drink can contribute to faster stamina regeneration, while lack of food or water can slow down the regeneration process.
+Скорость регенерации стамины напрямую зависит от состояния других характеристик персонажа. Например, уровень голода и жажды может влиять на скорость восстановления стамины. Более удовлетворенные потребности в пище и питье могут способствовать более быстрой регенерации стамины, в то время как недостаток пищи или воды может замедлить процесс восстановления.
 
-This system allows players to strategically manage their resources and energy by choosing the right moment to perform actions, as well as paying attention to meeting the needs of the character to optimize their performance in the game.
+Такая система позволяет игрокам стратегически управлять своими ресурсами и энергией, выбирая подходящий момент для выполнения действий, а также уделять внимание удовлетворению потребностей персонажа для оптимизации его производительности в игре.
 
-## Oxygen
+## Кислород
 
 {% hint style="warning" %}
-Oxygen is a matter of game design and may depend on the desired gameplay experience and objectives. The inclusion of such mechanics can add depth and realism to the game, providing players with an additional aspect of resource management and survival.ания.
+Является вопросом дизайна игры и может зависеть от желаемого игрового опыта и целей. Включение такой механики может добавить глубину и реализм в игру, предоставив игрокам дополнительный аспект управления ресурсами и выживания.
 {% endhint %}
 
-In the game, the character is constantly depleting his or her oxygen supply. If the oxygen supply is completely depleted, it leads to the instant death of the character. However, there are different ways to restore the oxygen supply, such as oxygen stations, oxygen sources or the use of certain products.
+В игре персонаж постоянно истощает запас кислорода. Если запас кислорода полностью исчерпывается, это приводит к мгновенной смерти персонажа. Однако существуют различные способы восстановления запаса кислорода, такие как станции кислорода, источники кислорода или использование определенных продуктов.
 
-Oxygen stations are objects in the game world that allow a character to regenerate oxygen. Oxygen sources can be associated with certain places or events in the game where a character can replenish his or her oxygen supply. In addition, certain foods or items may have the ability to restore a character's oxygen supply.
+Станции кислорода представляют собой объекты в игровом мире, которые позволяют персонажу восстановить запас кислорода. Источники кислорода могут быть связаны с определенными местами или событиями в игре, где персонаж может пополнить свои запасы кислорода. Кроме того, определенные продукты или предметы могут иметь способность восстанавливать кислородный запас персонажа.
 
-When reborn, a character has a full supply of oxygen in his or her lungs. This allows the character to start the game with a fully restored oxygen supply and be ready for new challenges and adventures.
+При перерождении персонаж имеет полные запасы кислорода в своих легких. Это позволяет персонажу начать игру с полностью восстановленным запасом кислорода и быть готовым к новым вызовам и приключениям.
 
-## Brain disruption
+## Шиза
 
 {% hint style="info" %}
-Methods of obtaining may vary depending on the game concept and context
+Способы получения шизы могут различаться в зависимости от игровой концепции и контекста
 {% endhint %}
 
-### Description
+### Описание
 
-Brain disruption is a special characteristic of the character, which is passively regenerated at a much lower rate than other game mechanics. This means that the regeneration of shiz is slower, and the character must pay attention to its level.
+Шиза представляет собой особую характеристику персонажа, которая пассивно регенерируется со значительно более низкой скоростью по сравнению с другими игровыми механиками. Это означает, что восстановление шизы происходит медленнее, и персонаж должен обратить внимание на ее уровень.
 
-When a character kills a creature in the game, it results in a significant reduction in brain disruption. This is because killing can cause stress or other emotional reactions in a character. Such events affect the character's psychological state and result in a lowered level of schizophrenia.
+Когда персонаж убивает живое существо в игре, это приводит к значительному снижению шизы. Это связано с тем, что убийство может вызывать стресс или другие эмоциональные реакции у персонажа. Такие события оказывают влияние на психологическое состояние персонажа и приводят к понижению уровня шизы.
 
-These mechanics create additional gameplay risks and necessitate a strategic approach to Brain disruption management. The character may need to actively seek out ways to recover from Brain disruption, such as using special items or performing certain actions, to avoid the negative consequences associated with a low schizophrenia level.
+Эта механика создает дополнительные игровые риски и вызывает необходимость стратегического подхода к управлению шизой. Персонажу может потребоваться активно искать способы восстановления шизы, такие как использование специальных предметов или выполнение определенных действий, чтобы избежать негативных последствий, связанных с низким уровнем шизы.
 
-### Acquisition and treatment
+### Приобротение и лечение
 
-The ways of getting the Brain disruption can vary depending on the game concept and context. Here are a few possible ways to get Brain disruption:
+Способы получения шизы могут различаться в зависимости от игровой концепции и контекста. Вот несколько возможных способов получения шизы:
 
-1. Social interactions: Interactions with other characters, especially in conflict or tense situations, can cause an increase in schizophrenia. For example, threats, insults, violence, or loss of trust can increase the level of schizophrenia.
-2. Stressful situations: Events involving danger, fear, death, or loss can cause emotional reactions in a character and increase the level of schizophrenia. These can be, for example, battles with powerful enemies, passing difficult tests, or falling into dangerous traps.
-3. The use of certain abilities or items: Certain abilities or items in the game may be related to schizophrenia. For example, using magic that affects a character's mental state, or using items that cause panic or anxiety can lead to increased schizophrenia.
+1. Социальные взаимодействия: Взаимодействие с другими персонажами, особенно в конфликтных или напряженных ситуациях, может вызывать рост шизы. Например, угрозы, оскорбления, насилие или потеря доверия могут повысить уровень шизы.
+2. Стрессовые ситуации: События, связанные с опасностью, страхом, смертью или потерей, могут вызывать эмоциональные реакции у персонажа и повышение уровня шизы. Это могут быть, например, сражения с мощными врагами, прохождение сложных испытаний или попадание в опасные ловушки.
+3. Использование определенных способностей или предметов: Некоторые способности или предметы в игре могут быть связаны с шизой. Например, использование магии, которая влияет на психическое состояние персонажа, или использование предметов, вызывающих панику или тревогу, может привести к повышению шизы.
 
-Regarding ways to treat Brain disruption, there are various mechanics that can be provided in the game. Some of these include:
+Относительно способов лечения шизы, в игре могут быть предусмотрены различные механики. Некоторые из них включают:
 
-1. Stopping Gain: The character can take action to prevent the level of schizophrenia from rising further. For example, avoid conflict situations or certain interactions that cause emotional tension.
-2. Temporary rollback: Temporary rollback mechanics may allow the character to temporarily reduce the level of Brain disruption. For example, using a special item or ability that suspends emotional reactions and reduces Brain disruption for a certain amount of time.
-3. Mitigation: Abilities or items may be designed to reduce the effect of Brain disruption on a character. This may manifest as a reduction of the negative effects associated with high levels of Brain disruption, or an improvement in mental.
+1. Остановка получения: Персонаж может предпринять действия для предотвращения дальнейшего повышения уровня шизы. Например, избегать конфликтных ситуаций или определенных взаимодействий, которые вызывают эмоциональное напряжение.
+2. Временный откат: Механика временного отката может позволять персонажу временно снизить уровень шизы. Например, использование специального предмета или способности, которые приостанавливают эмоциональные реакции и снижают шизу на определенное время.
+3. Уменьшение влияния: Способности или предметы могут быть предназначены для уменьшения влияния шизы на персонажа. Это может проявляться в снижении негативных эффектов, связанных с высоким уровнем шизы, или улучшении психического
 
-### Impact
+### Влияние
 
-In the game, the level of Brain disruption has an effect on various aspects of gameplay. Here are some possible mechanics related to Brain disruption level:
+В игре уровень шизы имеет влияние на различные аспекты игрового процесса. Вот некоторые возможные механики, связанные с уровнем шизы:
 
-* Regeneration of bio-parameters and crafting: The lower the level, the slower the regeneration of bio-parameters such as health or energy. Also, item crafting speed may decrease at low Brain disruption levels, requiring the player to be more prudent in resource management and strategic planning.
-* Changing loot: At low Brain disruption levels, the game may change the contents of the loot that a character gets from containers or killed enemies. For example, this may mean rarer or more valuable items that help the character manage his resources more effectively and deal with challenges.
-* Negative Effects of Very Low Sheesa Level: If the sheesa level reaches a very low value, it can lead to a gradual loss of the character's health and, eventually, to his death. This mechanism creates an additional level of challenge for the player, requiring strategic planning and balancing of the Brain disruption to ensure the character's survival.
+1. Регенерация био-параметров и крафт: Чем ниже уровень шизы, тем медленнее происходит регенерация био-параметров персонажа, таких как здоровье или энергия. Также скорость крафта предметов может снижаться при низком уровне шизы, требуя от игрока более осмотрительного управления ресурсами и стратегическое планирование.
+2. Изменение лута: При низком уровне шизы игра может изменять содержимое лута, которое персонаж получает из контейнеров или убитых врагов. Например, это может означать более редкие или ценные предметы, которые помогут персонажу более эффективно управлять своими ресурсами и справляться с вызовами.
+3. Негативные эффекты при очень низком уровне шизы: Если уровень шизы достигает очень низкого значения, это может привести к постепенной потере здоровья персонажа и, в конечном итоге, к его смерти. Такой механизм создает дополнительный уровень вызова для игрока, требуя стратегического планирования и балансировки шизы для обеспечения выживаемости персонажа.
 
-All of these mechanics help create a game experience where the level of schizophrenia is an important factor that influences character decisions and behavior, and requires consideration and management to succeed in the game.
+Все эти механики помогают создать игровой опыт, где уровень шизы является важным фактором, влияющим на решения и поведение персонажа, а также требующим учета и управления для достижения успеха в игре.

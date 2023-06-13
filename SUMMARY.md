@@ -1,13 +1,13 @@
 # Table of contents
 
-* [👋 Welcome to Xeus!](README.md)
+* [👋 Добро пожаловать в Xeus!](README.md)
 
 ## Mechanics
 
 * [Fighting system](mechanics/fighting-system.md)
 * [Armor system](mechanics/armor-system.md)
 * [Tech evolution](mechanics/tech-evolution/README.md)
-  * [PVE-Branch](mechanics/tech-evolution/pve-branch.md)
+  * [PVE-Ветка](mechanics/tech-evolution/pve-vetka.md)
   * [MID-Ветка](mechanics/tech-evolution/mid-vetka.md)
   * [PVP-Ветка](mechanics/tech-evolution/pvp-vetka.md)
   * [ADD-Ветка](mechanics/tech-evolution/add-vetka.md)

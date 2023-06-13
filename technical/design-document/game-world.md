@@ -1,92 +1,96 @@
 ---
+description: Игровой мир и его наполнение
 cover: ../../.gitbook/assets/gameWorld-min.png
 coverY: 103
 ---
 
 # Game world
 
-## Map
+## Игровая карта
 
 {% hint style="danger" %}
-The game world system has been replaced by a fully procedurally generated map, and the players' limit is 64
+Система игрового мира была заменена на полностью процедурно-генерируемую карту, а предел игроко составил 64
 {% endhint %}
 
-The game contains a static map with a small size, which is not procedurally generated. The map contains various objects, such as ruins, which are static and cannot be destroyed.
+В игре присутствует статическая карта с небольшим размером, которая не процедурно генерируется. Карта содержит различные объекты, такие как руины, которые являются статическими и не могут быть разрушены.
 
-Each pair of objects on the map contains a unique object, such as a workbench or resource source. Each object has its own uniqueness and functionality, offering players different options and benefits. For example, a workbench can be used to create and improve items, and a resource source can provide necessary materials for game progress.
+В каждой паре объектов на карте присутствует уникальный объект, такой как верстак или источник ресурсов. Каждый объект имеет свою уникальность и функционал, предлагая игрокам различные возможности и преимущества. Например, верстак может использоваться для создания и улучшения предметов, а источник ресурсов может предоставлять необходимые материалы для игрового прогресса.
 
-Each object on the map is sure to contain a protected oxygen station or oxygen source. This is important for maintaining the character's oxygen supply and his survival in the game. The oxygen source can be used to replenish the oxygen supply, and the protected oxygen station can provide a safe place for the character to recover his supplies.
+Каждый объект на карте обязательно содержит защищенную станцию кислорода или источник кислорода. Это важно для поддержания запаса кислорода персонажа и его выживания в игре. Источник кислорода может быть использован для пополнения запаса кислорода, а защищенная станция кислорода может предоставлять безопасное место для персонажа, где он может восстановить свои запасы.
 
-The map is not initially available to view, but players have the option to create one. This means that players must explore and master the game world in order to create the map and gain insight into its structure and content.
+Изначально карта недоступна для просмотра, но игроки имеют возможность создать ее. Это означает, что игроки должны исследовать и осваивать игровой мир, чтобы создать карту и получить представление о его структуре и содержании.
 
-Given the small size of the map, there should be enough space for 24 players to move freely and interact with each other without feeling cramped or overwhelmed.
+Учитывая небольшой размер карты, на ней должно быть достаточно места для 24 игроков, чтобы они могли свободно передвигаться и взаимодействовать друг с другом без ощущения тесноты или перегруженности.
 
-## Moving around the world
+## Передвижение по миру
 
-Due to extra-atmospheric conditions such as different pressure, temperature and gravity from Earth, character movement has a high degree of fluidity, making [strafing](https://en.wikipedia.org/wiki/Strafing\_\(video\_games\)) almost impossible.
+Из-за экстраатмосферных условий, таких как отличное от Земли давление, температура и гравитация, перемещение персонажа обладает высокой степенью плавности, что делает [стрейфы](https://en.wikipedia.org/wiki/Strafing\_\(video\_games\)) практически невозможными.
 
-When falling, the character takes significantly more damage, making it lethal to the character. The character shows no inclination to jump to greater heights, probably due to the special environmental conditions.
+При падении персонаж получает значительно больший урон, что делает его смертельным для персонажа.
 
-Making the jump requires significant stamina consumption, possibly related to the character's adaptation to the unusual environmental conditions. Consequences of the jump include an almost total loss of control of the character, possibly as a result of the forces inherent in the action.
+Персонаж не проявляет стремления к прыжкам на большую высоту, вероятно, из-за особых условий окружающей среды.
 
-Performing a squat takes a significant amount of time and during this process the character loses control of his or her movements.
+Осуществление прыжка требует значительного расхода стамины, возможно, связанного с адаптацией персонажа к необычным условиям окружающей среды.
 
-Using the sprint results in a rapid depletion of stamina, but allows you to create distance between the character and the pursuing creature. Running away from the other player is very difficult due to these features. During the sprint the character loses its maneuverability, possibly due to the effects of the physical forces affecting movement in this game universe.
+Последствия прыжка включают почти полную потерю контроля над персонажем, возможно, в результате воздействия сил, присущих этому действию.
 
-## Resources
+Выполнение приседания занимает значительное количество времени и во время этого процесса персонаж теряет возможность управлять своими движениями.
 
-Resources cannot be extracted from the air in the game, but they are virtually infinite. There is an important resource in the world, similar to wood, which does not regenerate itself. At the beginning of the game this resource is present throughout the map, but after its extraction you need to grow a new specimen.
+Использование спринта приводит к быстрому истощению запаса стамины, но позволяет создать расстояние между персонажем и преследующим существом. Убежать от другого игрока представляет значительные трудности в связи с указанными особенностями.
 
-There are objects on the map where you can get the "seeds" of this resource. The player is given the opportunity to collect these "seeds" and use them to plant new plants of this resource.
+Во время спринта персонаж теряет свою маневренность, возможно, из-за воздействия физических сил, влияющих на движение в условиях данной игровой вселенной.
 
-Most of the resources in the game can be obtained by extracting them from mobs, that is, various creatures found in the game world. The player has the ability to attack these mobs and obtain the necessary resources from their bodies (inventory). This can include various items, materials or raw materials that can be used to create new items, constructions.
+## Ресурсы
 
-## Seasons and hanging the time of day
+В игре ресурсы не могут быть добыты из воздуха, однако они являются фактически бесконечными. В мире существует важный ресурс, аналогичный дереву, который не регенерируется самостоятельно. На начальном этапе игры этот ресурс присутствует на всей карте, но после его добычи требуется выращивание нового экземпляра.
 
-There are seasons in the game, and their duration is measured in days, where each season lasts several days. The values of the length of day and night vary depending on the current season.
+На карте расположены объекты, на которых можно получить "семена" этого ресурса. Игроку предоставляется возможность собирать эти "семена" и использовать их для посадки новых растений данного ресурса.
 
-The events in the game depend on the current season. Each season has its own unique characteristics and events that occur. Some random events occur in each season, but with differences between them.
+Основная часть ресурсов в игре может быть получена путем добычи их из мобов, то есть различных существ, встречающихся в игровом мире. Игрок имеет возможность атаковать этих мобов и получать необходимые ресурсы из их тел (инвентаря). Это может включать в себя различные предметы, материалы или сырье, которые можно использовать для создания новых предметов, построек.
 
-For example, rain in the game can happen in any season, but the type of rain depends on the current season and time of day. This means that different seasons and times of day can provide different types of rain, such as showers, drizzle, or thunderstorms.
+## Сезоны, смена времени дня
 
-Nighttime changes the conditions of the game. In random places, plants begin to grow out of the surface, which serve as mini oxygen sources. Some mobs also change their behavior at night. In addition, staying in complete darkness leads to the accelerated development of the player's Brain disruption effect.
+В игре присутствуют сезоны, и их длительность измеряется в днях, где каждый сезон длится несколько дней. Значения продолжительности дня и ночи варьируются в зависимости от текущего сезона.&#x20;
 
-Thus, the seasons in the game determine the length of day and night, as well as affect various events, including the type of rain and changing conditions of the game at night.
+События в игре зависят от текущего сезона. Каждый сезон обладает своими уникальными особенностями и происходящими событиями. Некоторые случайные эвенты происходят в каждом сезоне, но с отличиями между ними.
+
+Например, дождь в игре может происходить в любом сезоне, но тип дождя зависит от текущего сезона и времени суток. Это означает, что разные сезоны и время суток могут предоставлять различные виды дождя, такие как ливни, моросящий дождь или грозы.
+
+Ночное время изменяет условия игры. В случайных местах из поверхности начинают вырастать растения, которые служат мини-источниками кислорода. Некоторые мобы также изменяют свое поведение в ночное время. Кроме того, пребывание в полной темноте приводит к ускоренному развитию эффекта шизы у игрока.
+
+Таким образом, сезоны в игре определяют продолжительность дня и ночи, а также влияют на различные события, включая тип дождя и изменение условий игры в ночное время.
 
 ## Мобы
 
-In the game, there are monsters that move only on the ground or remain stationary. There are a total of four types of mobs:&#x20;
+В игре присутствуют мобы, которые перемещаются только по земле или остаются неподвижными. Всего существует четыре типа мобов: пассивные, нейтральные, агрессивные и смешанные.
 
-1. Aggressive&#x20;
-2. Neutral
-3. Passive
-4. Mixed
+Только агрессивные мобы нападают на других мобов. Все остальные мобы ведут себя пассивно по отношению к другим существам. Пассивные мобы делятся на два вида: пугливые и непугливые.
 
-Only aggressive monsters attack other monsters. All other mobs behave passively in relation to other creatures. Passive mobs are divided into two types: Scary and non-shy.
+Пугливые мобы всегда пытаются убежать от других существ, особенно от игрока. Непугливые мобы игнорируют существо до тех пор, пока оно не нанесет им вреда.
 
-Scary mobs always try to run away from other creatures, especially from the player. Non-scary mobs ignore a creature as long as it doesn't hurt them.
+Нейтральные мобы не атакуют существо, пока оно не нанесет им вреда. Они сохраняют нейтралитет и не проявляют агрессии, пока не будут вызваны на бой.
 
-Neutral mobs do not attack a creature until it harms them. They remain neutral and are not aggressive until summoned for combat.
+Агрессивные мобы будут нападать на окружающих существ при определенных условиях, придерживаясь конкретного приоритета в выборе целей. Они могут нападать как на игрока, так и на других мобов.
 
-Aggressive mobs will attack surrounding creatures under certain conditions, adhering to a specific targeting priority. They can attack the player as well as other mobs.
+Смешанные мобы обычно объединяют в себе два типа поведения. Один тип проявляется днем, а другой — ночью. Например, днем они могут быть нейтральными, а ночью становиться агрессивными и наоборот.
 
-Mixed mobs usually combine two types of behavior. One type manifests itself during the day and the other at night. For example, they can be neutral during the day and become aggressive at night and vice versa.
+Агрессивные мобы также будут стремиться разрушить постройки игрока, если они принадлежат игроку.
 
-Aggressive mobs will also seek to destroy the player's buildings, if they belong to the player. Mobs can exist in packs, i.e. groups where they move and act together.
+Мобы могут существовать в стаях, то есть группах, где они перемещаются и действуют совместно.
 
-Each mob in the game usually has a pseudo-random set of parameters for each server. These parameters determine what type of damage the mob does (more or less damage) and what minimum tool power is needed to carve its carcass or get resources.
+Каждый моб в игре обычно имеет псевдо-случайный набор параметров для каждого сервера. Эти параметры определяют, какой тип урона моб наносит (больше или меньше урона) и какая минимальная мощность инструмента необходима для разделки его туши или получения ресурсов.
 
-## Airdrop
+## Аирдроп
 
-Cargo from the Air is a random event in the game. This event can occur unpredictably and contains various resource sets that are important to any player.
+Груз с воздуха представляет собой случайное событие в игре. Этот эвент может происходить непредсказуемо и содержит различные наборы ресурсов, которые важны для любого игрока.
 
-In some cases, a cargo from the air may contain unique materials that have been brought in from other satellites or planets. These materials are an improved version of existing resources available in the game world.
+В некоторых случаях груз с воздуха может содержать уникальные материалы, которые были привезены с других спутников или планет. Эти материалы представляют собой улучшенную версию уже существующих ресурсов, доступных в игровом мире.
 
-However, airdrops are not just a box you can walk up to and get loot. Various dangers or events can occur around the airdrop that give them more storytelling and provide additional challenges for players. Some examples of such plots might include:
+Однако аирдропы не просто являются ящиком, к которому можно подойти и получить лут. Вокруг аирдропа могут возникать различные опасности или события, которые придают им больше сюжетности и вызывают дополнительные вызовы для игроков. Некоторые примеры таких сюжетов могут включать:
 
-* Attracting Predators: Falling cargo from the air can attract the attention of predators who gather around to try to gain access to the contents. Players will have to deal with this threat to gain access to resources.
-* Opposing faction drones: When a shipment drops, opposing faction drones may try to intercept or destroy the contents to prevent them from falling into players' hands. Players must fight these drones to protect and gain access to the cargo.
-* Unfortunate Drop: On rare occasions, a cargo from the air may experience an unfortunate drop, causing electrical failures or other dangerous events around it. This can limit player access to the contents and create additional challenges to resolve.
+1. Привлечение хищников: Падение груза с воздуха может привлечь внимание хищников, которые собираются вокруг, чтобы попытаться получить доступ к содержимому. Игрокам придется справиться с этой угрозой, чтобы получить доступ к ресурсам.
+2. Дроны противоположной фракции: При падении груза, дроны противоположной фракции могут попытаться перехватить или уничтожить содержимое, чтобы предотвратить его попадание в руки игроков. Игрокам предстоит бороться с этими дронами, чтобы защитить и получить доступ к грузу.
+3. Неудачное падение: В редких случаях груз с воздуха может испытать неудачное падение, вызывая электрические сбои или другие опасные события вокруг него. Это может ограничить доступ игроков к содержимому и создать дополнительные вызовы для их решения.
 
 Такие "_сюжетные"_ элементы вокруг аирдропов делают их более интересными и захватывающими, требуя от игроков принятия решений и участия в дополнительных сражениях или испытаниях, чтобы получить желаемые ресурсы.
 

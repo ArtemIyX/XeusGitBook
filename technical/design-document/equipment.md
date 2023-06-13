@@ -1,52 +1,59 @@
 ---
+description: Снаряжение и инвентарь
 cover: ../../.gitbook/assets/inventory-min.png
 coverY: 47
 ---
 
 # Equipment
 
-## Inventory
+## Инвентарь
 
-The inventory in the game Xeus consists of slots provided by clothing and other equipment for storing items. Items can occupy NxM slots. The main slots are provided by backpacks, while other equipment (clothing) provides only 2-3 slots.
+Инвентарь в игре Xeus состоит из слотов, предоставляемых одеждой и другой экипировки, для хранения предметов. Предметы могут занимать NxM слотов. Основные слоты предоставляются рюкзаками, а другая экипировка (одежда) дает всего 2-3 слота.
 
-Inventory capacity is limited by weight. If the weight limit is exceeded, the character slows down, expends more energy, and is limited in movement (unable to squat, jump, or run).
+Вместимость инвентаря ограничена весом. При превышении предельного веса, персонаж замедляется, тратит больше энергии и ограничен в передвижении (невозможность приседать, прыгать или бежать).
 
-The character has two "fast slots". One of the slots can only be occupied by a one-handed tool. Each item has a strength. If the strength of the equipment is low, items begin to fall out of the inventory, and some slots become inaccessible. If the strength of a tool is low, its efficiency decreases and the amount of energy expended increases. At 0% strength, the equipment cannot be dressed and the tool cannot be used.When an item is restored, its maximum strength is reduced to a certain limit.
+Персонаж имеет два «быстрых слота». Один из слотов может быть занят только одноручным инструментом.
 
-Food has a spoilage index, which is expressed as a percentage. Food can be cleaned, but in this case it will lose its caloric value. Consumption of spoiled or raw food has a negative effect on the character's health.
+Каждый предмет имеет прочность. При низкой прочности снаряжения предметы начинают выпадать из инвентаря, а некоторые слоты становятся недоступными.
 
-## Character level, experience
+При низкой прочности инструмента его эффективность снижается, а количество затрачиваемой энергии увеличивается.
+
+При 0% прочности снаряжение нельзя одеть, а инструмент невозможно использовать.При восстановлении предмета его максимальная прочность снижается до определенного предела.
+
+У пищи есть показатель испорченности, который выражается в процентах. Пищу можно очистить, но в этом случае она потеряет свою калорийность. Употребление испорченной или сырой пищи негативно сказывается на здоровье персонажа.
+
+## Уровень персонажа, прокачка
 
 {% hint style="warning" %}
-The mechanics are not fully thought out and half of what is described most likely will not be implemented
+Механика не до конца продумана и половину описанного вероятнее всего не будет реализовано
 {% endhint %}
 
-~~When creating a character at the beginning of the game, the player is given the opportunity to choose a class. Each class has its own unique buffs, debuffs and activity preferences.~~
+~~При создании персонажа в начале игры, игроку предоставляется возможность выбрать класс. Каждый класс обладает своими уникальными баффами, дебаффами и предпочтениями в деятельности.~~
 
-Almost all actions performed by a character bring a small amount of experience. However, when a character is reborn, half of the experience gained is lost, including learned passive and active skills.
+Почти все действия, выполненные персонажем, приносят небольшое количество опыта. Однако, при перерождении персонажа половина накопленного опыта теряется, включая изученные пассивные и активные навыки.
 
-A character gains more experience for engaging in his/her favorite activity, increases his/her reputation, and relieves mental tension.
+За занятие любимым делом персонаж получает больше опыта, повышает свою репутацию и снимает психическую напряженность.
 
-Increasing a character's level gives a unit of passive skill, which remains constant. To upgrade a passive skill requires a certain character level and several units of passive skill (usually 1 to 3).
+Повышение уровня персонажа дает единицу пассивного навыка, который остается постоянным. Чтобы повысить уровень пассивного навыка, требуется определенный уровень персонажа и несколько единиц пассивного навыка (обычно от 1 до 3).
 
-At certain character levels, a choice between two more useful skills or perks is always offered. The player can choose one of these for character development.
+На определенных уровнях персонажа всегда предлагается выбор между двумя более полезными навыками или перками. Игрок может выбрать один из них для развития персонажа.
 
 {% hint style="info" %}
-The linear character progression system has been replaced by a tree(branching) system
+Система линейного развития заменена на систему веток в дереве развития
 {% endhint %}
 
-Leveling up also unlocks new recipes for crafting items. Recipes do not disappear after learning and remain available to the character. However, a certain level of crafting skill may be required to create complex and powerful items.
+Повышение уровня также открывает новые рецепты для крафта предметов. Рецепты не исчезают после изучения и остаются доступными персонажу. Однако, для создания сложных и мощных предметов может потребоваться определенный уровень навыка в крафте.
 
-## Tools leveling-up
+## Прокачка инструментов
 
 {% hint style="danger" %}
-The mechanics have been completely changed
+Механика была полностью изменена
 {% endhint %}
 
-Regardless of who uses the tool, the item can be pumped. As the level of the item increases, its characteristics also increase.
+Вне зависимости от того, кто использует инструмент, предмет может быть прокачан. По мере повышения уровня предмета, у него также увеличиваются характеристики.
 
-For weapons, the game provides pumping in the PVP and PVE sections. PVP characteristics are pumped more actively when killing other players, while PVE characteristics are pumped when killing monsters or completing tasks in the game world.
+Для оружия в игре предусмотрена прокачка в разделах PVP и PVE. PVP-характеристики прокачиваются более активно при убийстве других игроков, в то время как PVE-характеристики прокачиваются при убийстве монстров или выполнении заданий в игровом мире.
 
-PVP characteristics of weapons do not directly influence the time to kill (Time To Kill), they rather increase the convenience of weapon use. For example, such characteristics as or shooting stability can be improved, which makes the weapon more comfortable for the player while fighting.
+PVP-характеристики оружия не оказывают прямого влияния на время убийства (Time To Kill), они скорее повышают удобство использования оружия. Например, такие характеристики, как  или стабильность стрельбы, могут быть улучшены, что делает оружие более комфортным для игрока при ведении боя.
 
-It is important to note that the maximum level of some tools is limited. This means that items reach their maximum development potential and can no longer be pumped or improved after reaching a certain level.
+Важно отметить, что максимальный уровень некоторых инструментов ограничен. Это означает, что предметы достигают своего максимального потенциала развития и больше не могут быть прокачаны или улучшены после достижения определенного уровня.
