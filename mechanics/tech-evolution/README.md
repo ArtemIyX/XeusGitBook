@@ -26,5 +26,5 @@ description: Система развития
 
 Чтобы изменить выбранную ветку развития, игрок должен пройти специальную процедуру перекачки. Такая система заставляет игроков тщательно обдумывать свои выборы и развивать те навыки, которые наиболее важны для них в данный момент игры, а не те, которые могут понадобиться в будущем.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>PVE-Ветка</td><td></td><td><a href="pvp-vetka.md">pvp-vetka.md</a></td></tr><tr><td></td><td>MID-Ветка</td><td></td><td><a href="mid-vetka.md">mid-vetka.md</a></td></tr><tr><td></td><td>PVP-Ветка</td><td></td><td><a href="pve-vetka.md">pve-vetka.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>PVP-Ветка</td><td></td><td><a href="pvp-vetka.md">pvp-vetka.md</a></td></tr><tr><td></td><td>MID-Ветка</td><td></td><td><a href="mid-vetka.md">mid-vetka.md</a></td></tr><tr><td></td><td>PVE-Ветка</td><td></td><td><a href="pve-vetka.md">pve-vetka.md</a></td></tr></tbody></table>
 

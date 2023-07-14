@@ -11,6 +11,7 @@
   * [MID-Ветка](mechanics/tech-evolution/mid-vetka.md)
   * [PVP-Ветка](mechanics/tech-evolution/pvp-vetka.md)
   * [ADD-Ветка](mechanics/tech-evolution/add-vetka.md)
+* [Sense system](mechanics/sense-system.md)
 
 ## Technical
 
