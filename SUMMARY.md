@@ -4,7 +4,7 @@
 
 ## Mechanics
 
-* [Melee weapon](mechanics/melee-weapon.md)
+* [Melee weapon](mechanics/fighting-system.md)
 * [Modular Weapons](mechanics/modular-weapons.md)
 * [Armor system](mechanics/armor-system.md)
 * [Tech evolution](mechanics/tech-evolution/README.md)
