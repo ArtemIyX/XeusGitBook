@@ -29,3 +29,4 @@
 
 * [Robot](alexanders-stories/robot.md)
 * [Alchemiest and his tools](alexanders-stories/alchemiest-and-his-tools.md)
+* [Flint](alexanders-stories/flint.md)
