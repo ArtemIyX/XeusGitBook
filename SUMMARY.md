@@ -27,6 +27,7 @@
 * [Code style](technical/code-style/README.md)
   * [Comments](technical/code-style/comments.md)
   * [Basic](technical/code-style/basic.md)
+  * [Definitions](technical/code-style/definitions.md)
 
 ## Alexander's stories
 
