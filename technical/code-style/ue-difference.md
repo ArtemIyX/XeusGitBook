@@ -4,7 +4,7 @@ description: Сравнение деталей кода в Unreal Engine 4.27.2
 
 # UE Difference
 
-## Типы данных
+## Data types
 
 ### int vs int32
 
@@ -32,4 +32,50 @@ int64 c;                     // ok
 ```cpp
 int* ptr = NULL;        //bad
 int* ptr = nullptr;     //ok
+```
+
+### using, typedef
+
+* Для создания синонима длинного типа данных применяй ключевые слова \
+  `using` или `typedef`
+* Используйте `using` или `typedef` для повышения локальной читаемости кода
+* В стандарте C++ 11 `using` и `typedef` считаются синонимами
+* При выборе между using и typedef, отдайте предпочтение using, так как typedef не всегда поддерживает шаблоны
+
+> The alias declaration is compatible with templates, whereas the C style typedef is not.
+
+```cpp
+typedef void (UWeaponWorkbenchAction::*FunctionPtrType)(int32 a);     // ok
+using FunctionPtrType = void (UWeaponWorkbenchAction::*)(int32 a;     // better
+```
+
+### define
+
+* Избегайте использования #define для определения констант; \
+  вместо этого рекомендуется применять constexpr
+* Использование макросов и подстановка бесконечного числа параметров данных удобны в контексте Unreal Engine 4 с использованием директивы #define
+
+```cpp
+#define NETMODE_WORLD (((GEngine == nullptr) || (GetWorld() == nullptr)) ? TEXT("") \
+    : (GEngine->GetNetMode(GetWorld()) == NM_Client) ? TEXT("[Client] ") \
+    : (GEngine->GetNetMode(GetWorld()) == NM_ListenServer) ? TEXT("[ListenServer] ") \
+    : (GEngine->GetNetMode(GetWorld()) == NM_DedicatedServer) ? TEXT("[DedicatedServer] ") \
+    : TEXT("[Standalone] "))
+```
+
+```cpp
+#define TRACE(Category, Format, ...) \
+{ \
+    SET_WARN_COLOR(COLOR_CYAN);\
+    const FString Msg = FString::Printf(TEXT(Format), ##__VA_ARGS__); \
+    if (Msg == "") \
+    { \
+        UE_LOG(Category, Log, TEXT("%s%s() : %s"), NETMODE_WORLD, FUNC_NAME, *GetNameSafe(this));\
+    } \
+    else \
+    { \
+        UE_LOG(Category, Log, TEXT("%s%s() : %s"), NETMODE_WORLD, FUNC_NAME, *Msg);\
+    } \
+    CLEAR_WARN_COLOR();\
+}
 ```
